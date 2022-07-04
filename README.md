@@ -30,4 +30,4 @@ Note:
 
     pod update
 2. To install a specific version in pod library use the cmd as follows
-for ex: pod 'iOSDigitalReefSDKPods', :git => 'https://github.com/Digita1Reef/iOSDigitalReefSDKPods', :tag => '4.6.3'​
+for ex: pod 'iOSDigitalReefSDKPods', :git => 'https://github.com/Digita1Reef/iOSDigitalReefSDKPods', :tag => '4.6.1'​

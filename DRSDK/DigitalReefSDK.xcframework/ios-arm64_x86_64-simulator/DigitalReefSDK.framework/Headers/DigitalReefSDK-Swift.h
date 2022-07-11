@@ -261,14 +261,6 @@ SWIFT_CLASS("_TtC14DigitalReefSDK8AdLoader")
 @end
 
 
-SWIFT_CLASS("_TtC14DigitalReefSDK16ClientAttributes")
-@interface ClientAttributes : NSObject
-- (nonnull instancetype)initWithPHONE_NUMBER:(NSString * _Nullable)PHONE_NUMBER CARRIER:(NSString * _Nullable)CARRIER BILL_TYPE:(NSString * _Nullable)BILL_TYPE OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 SWIFT_CLASS("_TtC14DigitalReefSDK9CustomNav")
 @interface CustomNav : UINavigationController
 - (void)viewDidLoad;
@@ -327,7 +319,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 + (void)sendEventWithName:(NSString * _Nonnull)name;
 + (void)sendEventWithName:(NSString * _Nonnull)name seconds:(NSInteger)seconds;
 - (void)requestAppTrackingTransparencyPermission;
-- (void)setClientAttributesWithAttributes:(ClientAttributes * _Nonnull)attributes;
+- (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
 - (void)optInToEngagementAdsWithOptIn:(BOOL)optIn;
 - (BOOL)getEngagementAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -722,14 +714,6 @@ SWIFT_CLASS("_TtC14DigitalReefSDK8AdLoader")
 @end
 
 
-SWIFT_CLASS("_TtC14DigitalReefSDK16ClientAttributes")
-@interface ClientAttributes : NSObject
-- (nonnull instancetype)initWithPHONE_NUMBER:(NSString * _Nullable)PHONE_NUMBER CARRIER:(NSString * _Nullable)CARRIER BILL_TYPE:(NSString * _Nullable)BILL_TYPE OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 SWIFT_CLASS("_TtC14DigitalReefSDK9CustomNav")
 @interface CustomNav : UINavigationController
 - (void)viewDidLoad;
@@ -788,7 +772,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 + (void)sendEventWithName:(NSString * _Nonnull)name;
 + (void)sendEventWithName:(NSString * _Nonnull)name seconds:(NSInteger)seconds;
 - (void)requestAppTrackingTransparencyPermission;
-- (void)setClientAttributesWithAttributes:(ClientAttributes * _Nonnull)attributes;
+- (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
 - (void)optInToEngagementAdsWithOptIn:(BOOL)optIn;
 - (BOOL)getEngagementAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
 @end

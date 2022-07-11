@@ -27,7 +27,7 @@ import zlib
   @objc public static func sendEvent(name: Swift.String)
   @objc public static func sendEvent(name: Swift.String, seconds: Swift.Int)
   @objc public func requestAppTrackingTransparencyPermission()
-  @objc public func setClientAttributes(attributes: DigitalReefSDK.ClientAttributes)
+  @objc public func setClientAttributes(attributes: [Swift.String : Swift.String])
   @objc public func optInToEngagementAds(optIn: Swift.Bool)
   @objc public func getEngagementAdsOptInStatus() -> Swift.Bool
   @objc deinit
@@ -131,12 +131,6 @@ public typealias InAppMessageData = [Swift.AnyHashable : Any]
   final public func show(_ completion: (() -> Swift.Void)?)
   final public func closeEngagementAd()
   @objc deinit
-}
-@objc @objcMembers public class ClientAttributes : ObjectiveC.NSObject, Swift.Codable {
-  @objc public init(PHONE_NUMBER: Swift.String? = nil, CARRIER: Swift.String? = nil, BILL_TYPE: Swift.String? = nil)
-  @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
 }
 @objc @objcMembers public class AdEvents : ObjectiveC.NSObject {
   @objc public init(key: Swift.String, value: Any)

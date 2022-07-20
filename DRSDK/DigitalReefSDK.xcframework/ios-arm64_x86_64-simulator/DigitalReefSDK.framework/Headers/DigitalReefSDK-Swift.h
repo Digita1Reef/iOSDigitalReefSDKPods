@@ -227,6 +227,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK18AdAnalyticsManager")
 + (AdAnalyticsManager * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)adBackGroundedAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (void)adShownAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (void)adClosedAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId hasVideo:(BOOL)hasVideo videoView:(UIVideoView * _Nullable)videoView;
 - (void)adClosedWithNewNotificationWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId hasVideo:(BOOL)hasVideo videoView:(UIVideoView * _Nullable)videoView;
@@ -284,6 +285,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (BOOL)getEngagementAdOptInStatus SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)getMonetizationAdOptInStatus SWIFT_WARN_UNUSED_RESULT;
 - (void)logToSDKWithMsg:(NSString * _Nonnull)msg;
 - (void)removeAdFromDBWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (BOOL)addAdtoDBWithAdSourceType:(NSString * _Nonnull)adSourceType purposeType:(NSString * _Nonnull)purposeType SWIFT_WARN_UNUSED_RESULT;
@@ -322,9 +324,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
 - (void)optInToEngagementAdsWithOptIn:(BOOL)optIn;
 - (BOOL)getEngagementAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)optInToMonetizationAdsWithOptIn:(BOOL)optIn;
+- (BOOL)getMonetizationAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSData;
 
 SWIFT_CLASS("_TtC14DigitalReefSDK9GzManager")
 @interface GzManager : NSObject
@@ -332,10 +335,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GzManager * 
 + (GzManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)gzippedWithDataToBeCompressed:(NSData * _Nonnull)dataToBeCompressed;
 - (NSDictionary * _Nullable)gunzippedDictionaryWithDataContent:(NSString * _Nonnull)dataContent SWIFT_WARN_UNUSED_RESULT;
-- (void)testGzip;
-- (void)testDecompress;
 @end
 
 
@@ -393,6 +393,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK17LocalInAppMessage")
 
 
 
+@class NSData;
 
 @interface UIImage (SWIFT_EXTENSION(DigitalReefSDK))
 + (UIImage * _Nullable)gifForObjcWithData:(NSData * _Nonnull)data scale:(CGFloat)scale SWIFT_WARN_UNUSED_RESULT;
@@ -444,6 +445,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight;
 - (void)pauseVideo;
 - (void)playVideo;
+- (void)stopVideo;
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -680,6 +682,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK18AdAnalyticsManager")
 + (AdAnalyticsManager * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)adBackGroundedAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (void)adShownAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (void)adClosedAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId hasVideo:(BOOL)hasVideo videoView:(UIVideoView * _Nullable)videoView;
 - (void)adClosedWithNewNotificationWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId hasVideo:(BOOL)hasVideo videoView:(UIVideoView * _Nullable)videoView;
@@ -737,6 +740,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (BOOL)getEngagementAdOptInStatus SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)getMonetizationAdOptInStatus SWIFT_WARN_UNUSED_RESULT;
 - (void)logToSDKWithMsg:(NSString * _Nonnull)msg;
 - (void)removeAdFromDBWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (BOOL)addAdtoDBWithAdSourceType:(NSString * _Nonnull)adSourceType purposeType:(NSString * _Nonnull)purposeType SWIFT_WARN_UNUSED_RESULT;
@@ -775,9 +779,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
 - (void)optInToEngagementAdsWithOptIn:(BOOL)optIn;
 - (BOOL)getEngagementAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)optInToMonetizationAdsWithOptIn:(BOOL)optIn;
+- (BOOL)getMonetizationAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSData;
 
 SWIFT_CLASS("_TtC14DigitalReefSDK9GzManager")
 @interface GzManager : NSObject
@@ -785,10 +790,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GzManager * 
 + (GzManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)gzippedWithDataToBeCompressed:(NSData * _Nonnull)dataToBeCompressed;
 - (NSDictionary * _Nullable)gunzippedDictionaryWithDataContent:(NSString * _Nonnull)dataContent SWIFT_WARN_UNUSED_RESULT;
-- (void)testGzip;
-- (void)testDecompress;
 @end
 
 
@@ -846,6 +848,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK17LocalInAppMessage")
 
 
 
+@class NSData;
 
 @interface UIImage (SWIFT_EXTENSION(DigitalReefSDK))
 + (UIImage * _Nullable)gifForObjcWithData:(NSData * _Nonnull)data scale:(CGFloat)scale SWIFT_WARN_UNUSED_RESULT;
@@ -897,6 +900,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight;
 - (void)pauseVideo;
 - (void)playVideo;
+- (void)stopVideo;
 @end
 
 #if __has_attribute(external_source_symbol)

@@ -30,6 +30,8 @@ import zlib
   @objc public func setClientAttributes(attributes: [Swift.String : Swift.String])
   @objc public func optInToEngagementAds(optIn: Swift.Bool)
   @objc public func getEngagementAdsOptInStatus() -> Swift.Bool
+  @objc public func optInToMonetizationAds(optIn: Swift.Bool)
+  @objc public func getMonetizationAdsOptInStatus() -> Swift.Bool
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class InAPPUIButton : UIKit.UIButton {
@@ -70,6 +72,7 @@ import zlib
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class AdAnalyticsManager : ObjectiveC.NSObject {
   @objc public class func sharedInstance() -> DigitalReefSDK.AdAnalyticsManager
+  @objc public func adBackGroundedAnalytics(adId: Swift.String, campaignId: Swift.String)
   @objc public func adShownAnalytics(adId: Swift.String, campaignId: Swift.String)
   @objc public func adClosedAnalytics(adId: Swift.String, campaignId: Swift.String, hasVideo: Swift.Bool, videoView: DigitalReefSDK.UIVideoView?)
   @objc public func adClosedWithNewNotification(adId: Swift.String, campaignId: Swift.String, hasVideo: Swift.Bool, videoView: DigitalReefSDK.UIVideoView?)
@@ -138,10 +141,7 @@ public typealias InAppMessageData = [Swift.AnyHashable : Any]
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class GzManager : ObjectiveC.NSObject {
   @objc public static let shared: DigitalReefSDK.GzManager
-  @objc public func gzipped(dataToBeCompressed: Foundation.Data)
   @objc public func gunzippedDictionary(dataContent: Swift.String) -> Foundation.NSDictionary?
-  @objc public func testGzip()
-  @objc public func testDecompress()
   @objc deinit
 }
 public struct Ad : Swift.Codable {
@@ -157,6 +157,7 @@ public struct InAppContent : Swift.Codable {
   @objc public var engagementPushClicked: Swift.Bool
   @objc public var engagementInAppOpened: Swift.Bool
   @objc public func getEngagementAdOptInStatus() -> Swift.Bool
+  @objc public func getMonetizationAdOptInStatus() -> Swift.Bool
   @objc public func logToSDK(msg: Swift.String)
   @objc public func removeAdFromDB(adId: Swift.String, campaignId: Swift.String)
   @objc public func addAdtoDB(adSourceType: Swift.String, purposeType: Swift.String) -> Swift.Bool
@@ -247,6 +248,7 @@ extension Foundation.NSNotification.Name {
   @objc @_Concurrency.MainActor(unsafe) public func playVideo(videoUrl url: Foundation.URL, videoAsset avAsset: AVFoundation.AVAsset?, image imageView: UIKit.UIImageView?, fullScrnMode fullScreenMode: Swift.Bool, muted videoMuted: Swift.Bool, videoFrmtFull videoFormatFull: Swift.Bool, adId adIdInfo: Swift.String, campaignId campaignIdInfo: Swift.String, adType adTypeInfo: Swift.String, height videoHeight: CoreGraphics.CGFloat)
   @objc @_Concurrency.MainActor(unsafe) public func pauseVideo()
   @objc @_Concurrency.MainActor(unsafe) public func playVideo()
+  @objc @_Concurrency.MainActor(unsafe) public func stopVideo()
   @objc deinit
 }
 extension UIKit.UIImageView {

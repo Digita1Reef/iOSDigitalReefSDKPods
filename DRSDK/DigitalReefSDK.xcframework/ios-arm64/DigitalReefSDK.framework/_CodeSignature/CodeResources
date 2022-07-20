@@ -10,11 +10,11 @@
 		</data>
 		<key>AdsBaseViewController.nib/objects-14.0+.nib</key>
 		<data>
-		vrqaVFNEDM7f2Z+V923NSL5DkhQ=
+		Tzg8STHX+nlqvgYW7sGs3du/fg0=
 		</data>
 		<key>AdsBaseViewController.nib/runtime.nib</key>
 		<data>
-		gVGsNssmtjEB2fw+ns75MPBIK6Q=
+		IALpfosQHBCum5fPSy8K/+EGk9g=
 		</data>
 		<key>Assets.car</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		j2Zc7GUKLntoU+932t2LQ4j9efs=
+		5MqZ13wOTj+8CV9MahMybrhtBpw=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2/OO8UethXHLirY5MEsBiq/DQqA=
+		liCel3FM7wcCYtbGCmSgD+1LvFA=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7yJ6ez9BbH0Fue7PdbJjJbQVYOE=
+		D1sJH3pyWh8bC34cSMwUJjAVoFo=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1Ti+FQIfdP+e3JiSKcJgPTc029o=
+		MBvN96C3GX0CEe6IKQxp+iXtHak=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,14 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eqZvwlQY/3kdMqz40kcq0NZp1GIl5qn1lpUa+Ewc9Vs=
+			2GSdIRCVFbu56C0rOoUhReXu4Hog01uYiejHfQ2UHVA=
 			</data>
 		</dict>
 		<key>AdsBaseViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UxHVHJdhRrhXaukxwm7beq1sAAqZbBdMbuncGpn44sY=
+			uLLOxONRd4+Ur+auJdrMyFBGysPVDYevAk0wtoiXzNk=
 			</data>
 		</dict>
 		<key>Assets.car</key>
@@ -173,7 +173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGAaqbsnhvUl1263KDP5IvRsetBXOFUa2FYVko3ZXTA=
+			bmEegEUuf3TwlGYbHV/HRl7kC5KwYOB/uyi0Bf9yc4E=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -229,14 +229,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7th0sWGtNHPieq424p0ofanoZ5v5qBnkzh8v5F+hASU=
+			R6Va5UHNp1TqAarM1dMWR5IzE6IfZ3iNipiOWT28fBo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			daL6D/VRMnBszm01qKz3hU6GfEzxF8IFuDUHN8GjzQU=
+			/ugcYXZurjNqwZevbtxKyR5xL8vHWwATo46SMGfmDPg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

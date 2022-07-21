@@ -25,7 +25,6 @@ import zlib
   @objc public static func includeMediaAttachment(request: UserNotifications.UNNotificationRequest, mutableContent: UserNotifications.UNMutableNotificationContent, contentHandler: @escaping ((UserNotifications.UNNotificationContent) -> Swift.Void))
   @objc public static func requestPushPermission()
   @objc public static func sendEvent(name: Swift.String)
-  @objc public static func sendEvent(name: Swift.String, seconds: Swift.Int)
   @objc public func requestAppTrackingTransparencyPermission()
   @objc public func setClientAttributes(attributes: [Swift.String : Swift.String])
   @objc public func optInToEngagementAds(optIn: Swift.Bool)

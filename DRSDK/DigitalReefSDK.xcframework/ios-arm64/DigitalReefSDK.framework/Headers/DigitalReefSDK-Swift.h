@@ -317,7 +317,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 + (void)includeMediaAttachmentWithRequest:(UNNotificationRequest * _Nonnull)request mutableContent:(UNMutableNotificationContent * _Nonnull)mutableContent contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
 + (void)requestPushPermission;
 + (void)sendEventWithName:(NSString * _Nonnull)name;
-+ (void)sendEventWithName:(NSString * _Nonnull)name seconds:(NSInteger)seconds;
 - (void)requestAppTrackingTransparencyPermission;
 - (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
 - (void)optInToEngagementAdsWithOptIn:(BOOL)optIn;

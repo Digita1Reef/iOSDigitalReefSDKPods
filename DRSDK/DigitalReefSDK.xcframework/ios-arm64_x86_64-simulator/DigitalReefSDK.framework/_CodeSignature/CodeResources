@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PwnhzbeBKxxVS1zTzibm8nOgxI8=
+		nkx8gYhF5F0Hl/srKd9TuFNvUjw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bAKqaaxd0Yqm2nYvJLEtnptcIxk=
+		iDFHUi2fmtwRRXDJBX7iQdzMEoc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -248,7 +248,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/xdZNgBcV3IHvGfff0zshfZF14D9EjIaTs9cs9z0xrs=
+			Udjsa/B0jFDyEdsh49rRotgCkggzAVVnnZFue8HsaAA=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -269,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DyaruCIcKEswvj9Tu+W7F6WENIcAMXeFT/XXjlFVODw=
+			bkw506DKmeQ71TRazP9tf1umVpbccJY4MwLLtwI8It8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -20,6 +20,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "SHAM SUNDAR" => "sham.sundar@digitalreef.com" }
   spec.source             = { :git => 'https://github.com/Digita1Reef/iOSDigitalReefSDKPods', :tag => spec.version }
   spec.swift_version      = "5.0"
-  spec.platform     = :ios, "12.0"
+  spec.platform           = :ios, "12.0"
   spec.ios.vendored_frameworks = "DRSDK/DigitalReefSDK.xcframework"
+  spec.pod_target_xcconfig = {'OTHER_SWIFT_FLAGS[config=Debug]' => '-D DEBUG'}
 end

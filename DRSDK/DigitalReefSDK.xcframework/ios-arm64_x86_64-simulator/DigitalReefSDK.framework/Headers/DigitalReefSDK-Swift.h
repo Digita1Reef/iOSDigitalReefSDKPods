@@ -422,6 +422,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 @property (nonatomic, strong) NSLayoutConstraint * _Nullable bottom;
 @property (nonatomic, strong) NSLayoutConstraint * _Nullable trailing;
 @property (nonatomic, strong) NSLayoutConstraint * _Nullable leading;
+@property (nonatomic, strong) UIView * _Nullable imageAndVideoContainer;
 @property (nonatomic, strong) UIImageView * _Nullable backgroundImg;
 @property (nonatomic, strong) AVPlayerItem * _Nullable playerItem;
 @property (nonatomic, copy) NSString * _Nonnull videoWatchedSeconds;
@@ -441,7 +442,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (void)setVolumeIcon;
-- (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight;
+- (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight imgAndVidContainer:(UIView * _Nonnull)imageAndVideoContainer;
 - (void)pauseVideo;
 - (void)playVideo;
 - (void)stopVideo;
@@ -876,6 +877,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 @property (nonatomic, strong) NSLayoutConstraint * _Nullable bottom;
 @property (nonatomic, strong) NSLayoutConstraint * _Nullable trailing;
 @property (nonatomic, strong) NSLayoutConstraint * _Nullable leading;
+@property (nonatomic, strong) UIView * _Nullable imageAndVideoContainer;
 @property (nonatomic, strong) UIImageView * _Nullable backgroundImg;
 @property (nonatomic, strong) AVPlayerItem * _Nullable playerItem;
 @property (nonatomic, copy) NSString * _Nonnull videoWatchedSeconds;
@@ -895,7 +897,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (void)setVolumeIcon;
-- (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight;
+- (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight imgAndVidContainer:(UIView * _Nonnull)imageAndVideoContainer;
 - (void)pauseVideo;
 - (void)playVideo;
 - (void)stopVideo;

@@ -224,6 +224,7 @@ extension Foundation.NSNotification.Name {
   @objc @_Concurrency.MainActor(unsafe) public var bottom: UIKit.NSLayoutConstraint?
   @objc @_Concurrency.MainActor(unsafe) public var trailing: UIKit.NSLayoutConstraint?
   @objc @_Concurrency.MainActor(unsafe) public var leading: UIKit.NSLayoutConstraint?
+  @objc @_Concurrency.MainActor(unsafe) public var imageAndVideoContainer: UIKit.UIView?
   @objc @_Concurrency.MainActor(unsafe) public var backgroundImg: UIKit.UIImageView?
   @objc @_Concurrency.MainActor(unsafe) public var playerItem: AVFoundation.AVPlayerItem?
   @objc @_Concurrency.MainActor(unsafe) public var videoWatchedSeconds: Swift.String
@@ -244,7 +245,7 @@ extension Foundation.NSNotification.Name {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc @_Concurrency.MainActor(unsafe) public func setVolumeIcon()
-  @objc @_Concurrency.MainActor(unsafe) public func playVideo(videoUrl url: Foundation.URL, videoAsset avAsset: AVFoundation.AVAsset?, image imageView: UIKit.UIImageView?, fullScrnMode fullScreenMode: Swift.Bool, muted videoMuted: Swift.Bool, videoFrmtFull videoFormatFull: Swift.Bool, adId adIdInfo: Swift.String, campaignId campaignIdInfo: Swift.String, adType adTypeInfo: Swift.String, height videoHeight: CoreGraphics.CGFloat)
+  @objc @_Concurrency.MainActor(unsafe) public func playVideo(videoUrl url: Foundation.URL, videoAsset avAsset: AVFoundation.AVAsset?, image imageView: UIKit.UIImageView?, fullScrnMode fullScreenMode: Swift.Bool, muted videoMuted: Swift.Bool, videoFrmtFull videoFormatFull: Swift.Bool, adId adIdInfo: Swift.String, campaignId campaignIdInfo: Swift.String, adType adTypeInfo: Swift.String, height videoHeight: CoreGraphics.CGFloat, imgAndVidContainer imageAndVideoContainer: UIKit.UIView)
   @objc @_Concurrency.MainActor(unsafe) public func pauseVideo()
   @objc @_Concurrency.MainActor(unsafe) public func playVideo()
   @objc @_Concurrency.MainActor(unsafe) public func stopVideo()

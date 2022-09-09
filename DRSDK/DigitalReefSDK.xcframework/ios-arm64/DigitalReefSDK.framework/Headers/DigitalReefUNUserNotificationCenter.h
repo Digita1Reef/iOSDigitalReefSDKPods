@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UserNotifications/UserNotifications.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -13,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(void) setupMethods;
 +(void) takeActionForButton:(NSString *)actionIdentifier withInfo:(NSDictionary *) userInfo;
+
+-(void)notifCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler;
+-(void)notifCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)())completionHandler;
 
 @end
 

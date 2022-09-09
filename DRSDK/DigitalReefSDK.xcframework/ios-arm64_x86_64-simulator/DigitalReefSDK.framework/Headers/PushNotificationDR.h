@@ -42,6 +42,10 @@ BOOL injectSelector(Class newClass, SEL newSel, Class addToClass, SEL makeLikeSe
 +(NSDictionary *) getAd:(NSDictionary *) userInfo;
 + (void)addCategory:(NSMutableArray *)actionArray adId:(NSString *)adId toNotificationContent:(UNMutableNotificationContent*)content;
 + (void) removePendingPushNotificationsAdId:(NSString *)adId campaignId:(NSString *)campaignId;
++ (void) removeOldOrgDeliveredNotifications:(NSString *) oldOrganization;
+
+- (void)didRegisterForAPNSRemoteNotification:(UIApplication*)app deviceToken:(NSData*)inDeviceToken;
+- (void)didReceiveAPNSRemoteNotification:(UIApplication*)application userInfo:(NSDictionary*)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
 @end
 
 NS_ASSUME_NONNULL_END

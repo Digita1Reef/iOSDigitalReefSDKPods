@@ -31,6 +31,13 @@ import zlib
   @objc public func getEngagementAdsOptInStatus() -> Swift.Bool
   @objc public func optInToMonetizationAds(optIn: Swift.Bool)
   @objc public func getMonetizationAdsOptInStatus() -> Swift.Bool
+  @objc public func setOrganization(name: Swift.String, id: Swift.String)
+  @objc public func getOrganizationName() -> Swift.String?
+  @objc public func getOrganizationId() -> Swift.String?
+  @objc public func didRegisterForRemoteNotificationsWithDeviceToken(_ application: UIKit.UIApplication, deviceToken: Foundation.Data)
+  @objc public func didReceiveRemoteNotification(application: UIKit.UIApplication, userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
+  @objc public func didReceiveNotificationResponse(center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc public func willPresentNotification(center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class InAPPUIButton : UIKit.UIButton {
@@ -159,6 +166,7 @@ public struct InAppContent : Swift.Codable {
   @objc public func getMonetizationAdOptInStatus() -> Swift.Bool
   @objc public func logToSDK(msg: Swift.String)
   @objc public func removeAdFromDB(adId: Swift.String, campaignId: Swift.String)
+  @objc public func checkSameOrNot(org: Swift.String?) -> Swift.Bool
   @objc public func addAdtoDB(adSourceType: Swift.String, purposeType: Swift.String) -> Swift.Bool
   @objc public func getOptInType() -> Swift.String
   public func showInAppMessages()

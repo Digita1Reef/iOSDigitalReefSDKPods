@@ -201,6 +201,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -288,6 +289,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 - (BOOL)getMonetizationAdOptInStatus SWIFT_WARN_UNUSED_RESULT;
 - (void)logToSDKWithMsg:(NSString * _Nonnull)msg;
 - (void)removeAdFromDBWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
+- (BOOL)checkSameOrNotWithOrg:(NSString * _Nullable)org SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addAdtoDBWithAdSourceType:(NSString * _Nonnull)adSourceType purposeType:(NSString * _Nonnull)purposeType SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getOptInType SWIFT_WARN_UNUSED_RESULT;
 - (void)closeLoader;
@@ -309,6 +311,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 @class UNNotificationRequest;
 @class UNMutableNotificationContent;
 @class UNNotificationContent;
+@class UIApplication;
+@class NSData;
+@class UNUserNotificationCenter;
 
 SWIFT_CLASS("_TtC14DigitalReefSDK11DigitalReef")
 @interface DigitalReef : NSObject
@@ -325,6 +330,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (BOOL)getEngagementAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
 - (void)optInToMonetizationAdsWithOptIn:(BOOL)optIn;
 - (BOOL)getMonetizationAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)setOrganizationWithName:(NSString * _Nonnull)name id:(NSString * _Nonnull)id;
+- (NSString * _Nullable)getOrganizationName SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getOrganizationId SWIFT_WARN_UNUSED_RESULT;
+- (void)didRegisterForRemoteNotificationsWithDeviceToken:(UIApplication * _Nonnull)application deviceToken:(NSData * _Nonnull)deviceToken;
+- (void)didReceiveRemoteNotificationWithApplication:(UIApplication * _Nonnull)application userInfo:(NSDictionary * _Nonnull)userInfo fetchCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
+- (void)didReceiveNotificationResponseWithCenter:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)willPresentNotificationWithCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 @end
 
 
@@ -392,7 +404,6 @@ SWIFT_CLASS("_TtC14DigitalReefSDK17LocalInAppMessage")
 
 
 
-@class NSData;
 
 @interface UIImage (SWIFT_EXTENSION(DigitalReefSDK))
 + (UIImage * _Nullable)gifForObjcWithData:(NSData * _Nonnull)data scale:(CGFloat)scale SWIFT_WARN_UNUSED_RESULT;
@@ -656,6 +667,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -743,6 +755,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 - (BOOL)getMonetizationAdOptInStatus SWIFT_WARN_UNUSED_RESULT;
 - (void)logToSDKWithMsg:(NSString * _Nonnull)msg;
 - (void)removeAdFromDBWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
+- (BOOL)checkSameOrNotWithOrg:(NSString * _Nullable)org SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addAdtoDBWithAdSourceType:(NSString * _Nonnull)adSourceType purposeType:(NSString * _Nonnull)purposeType SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getOptInType SWIFT_WARN_UNUSED_RESULT;
 - (void)closeLoader;
@@ -764,6 +777,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 @class UNNotificationRequest;
 @class UNMutableNotificationContent;
 @class UNNotificationContent;
+@class UIApplication;
+@class NSData;
+@class UNUserNotificationCenter;
 
 SWIFT_CLASS("_TtC14DigitalReefSDK11DigitalReef")
 @interface DigitalReef : NSObject
@@ -780,6 +796,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (BOOL)getEngagementAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
 - (void)optInToMonetizationAdsWithOptIn:(BOOL)optIn;
 - (BOOL)getMonetizationAdsOptInStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)setOrganizationWithName:(NSString * _Nonnull)name id:(NSString * _Nonnull)id;
+- (NSString * _Nullable)getOrganizationName SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getOrganizationId SWIFT_WARN_UNUSED_RESULT;
+- (void)didRegisterForRemoteNotificationsWithDeviceToken:(UIApplication * _Nonnull)application deviceToken:(NSData * _Nonnull)deviceToken;
+- (void)didReceiveRemoteNotificationWithApplication:(UIApplication * _Nonnull)application userInfo:(NSDictionary * _Nonnull)userInfo fetchCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
+- (void)didReceiveNotificationResponseWithCenter:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)willPresentNotificationWithCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 @end
 
 
@@ -847,7 +870,6 @@ SWIFT_CLASS("_TtC14DigitalReefSDK17LocalInAppMessage")
 
 
 
-@class NSData;
 
 @interface UIImage (SWIFT_EXTENSION(DigitalReefSDK))
 + (UIImage * _Nullable)gifForObjcWithData:(NSData * _Nonnull)data scale:(CGFloat)scale SWIFT_WARN_UNUSED_RESULT;

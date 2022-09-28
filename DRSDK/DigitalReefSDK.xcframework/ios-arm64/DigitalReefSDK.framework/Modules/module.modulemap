@@ -6,6 +6,6 @@ framework module DigitalReefSDK {
 }
 
 module DigitalReefSDK.Swift {
-    header "DigitalReefSDK-Swift.h"
-    requires objc
+  header "DigitalReefSDK-Swift.h"
+  requires objc
 }

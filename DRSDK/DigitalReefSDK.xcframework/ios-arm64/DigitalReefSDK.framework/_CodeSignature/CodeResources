@@ -10,15 +10,15 @@
 		</data>
 		<key>AdsBaseViewController.nib/objects-14.0+.nib</key>
 		<data>
-		lJhbFhzFD7MANNIUDcvFZWhdKyA=
+		anlDYWFitZSl64+s2haamZdxH10=
 		</data>
 		<key>AdsBaseViewController.nib/runtime.nib</key>
 		<data>
-		SfdrLYdP3U+q4M3PCyrlrjxVJiE=
+		Pz1yWaKyyy+84e7BKnu5vJdUEzA=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		3M9F8B+CUcCcg+HD30c2ZF5QAW8=
+		U41IW+OT+xPxmAW7gp3CLKcCydw=
 		</data>
 		<key>Config.plist</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		o7VWRmTqoHQfj4UfA0nz+RuKImA=
+		2u8QpqTIVdLfFPfhsRVe8cucLeQ=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -74,27 +74,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cEwSVHIFu6kWvcEixJoD+xh0n8s=
+		hrAutdXSLDgxl4I7gUqEsb9DOjU=
+		</data>
+		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		zqUH9+oxATKwc3CJ+oyf3DJKQJs=
+		</data>
+		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		t1zrucKHGgTdxQ+3uDJ4asHsKzI=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		k+1fNxoJwj2uk5RjZ5aBEwJ8nlI=
+		VohX6m3/9ZkrNpD3O61PASRuwBw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1UriBbe5f+IZrAVE/dzhIhhqFNw=
+		t1zrucKHGgTdxQ+3uDJ4asHsKzI=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HC5erBfNvRb6axg3Rm0JXDgX/+4=
+		s10nQNXTMVpRxSDahfEKfaljOaA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ZeeMPmSBPyjZb05HWYMxrB8iwaE=
+		6nz2xp63ZwVuZiuyoBpdBcrnY14=
 		</data>
 		<key>UIVideoView.nib</key>
 		<data>
-		jdZ5AkqR93WrXLHWvihBh9h7REE=
+		2xu4+lualwY0bHpulPEuXXoV/vM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -110,21 +118,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N7UWKvF+b3IrLj8Cir9hOG3DHjdcmokx45umWcGhFYU=
+			88bB7HP1eH5a8biXBlkLLayzKSo43z69lT0wUouocpk=
 			</data>
 		</dict>
 		<key>AdsBaseViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Si/lopD2QwBlN9ghEsFSW6mHBmv69+ZfIKhpInxDSHk=
+			pRNv5RawiU22kdsIUDAuxIcEzdrYGucWF+PX9UGURoY=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lDo4khbUJz3uKstxeWuhZdjSyHAOmC5+Ilryq6VOsNA=
+			Ex9v7HeXfoqnRUSjxhDWxZmzBO1FpbZDPsBM8NJt6dM=
 			</data>
 		</dict>
 		<key>Config.plist</key>
@@ -173,7 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ezHY3iIWsny+Hft1pTBUKU3L6kXsCgl0Gc6tXWrZPZs=
+			uq7P7xD8SgTvXj045kIcPEOWYq1VJhMr8SZ8or1O+PU=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -218,39 +226,53 @@
 			Xt7xHApIdhIx4ga9pl7N+A7fWu+vYscbp7FfVLQ3MIA=
 			</data>
 		</dict>
+		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zyS2RSrSAmtZwEG3et9oebjX/ZNtNShN6XBoOmzuGnM=
+			</data>
+		</dict>
+		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CDgX507apLKQYYQU7TZrNtlABKiAus+k6ATPTDMOv3w=
+			</data>
+		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6LS3xJqffVX7KCcvtj/7EKT8pQORjig2dMi2H0cLaSk=
+			wcxjteraUhOgxaigC9G93S9l5RmWatFcgv9osdaBw0s=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XGJkJ7yrTlzWIn8WHQqzFkHOxATTPH3TNdXrj+qEi4E=
+			CDgX507apLKQYYQU7TZrNtlABKiAus+k6ATPTDMOv3w=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yJz2Rl7Svr9PfN+kkN0129g5tOsa4Rsv5aAMXPtU8Us=
+			rc6wffVXFDcUHYJgut3rOQSkXEjcHXz3CxxjhTA9KSo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kXXOZf+8p8uLdKM/jIR/PuKjBINrEbVkqzuM6s978nI=
+			0ZhVrtlhWnAFe/EuompmmJmcJpCkxO4sMmo8eTO2m08=
 			</data>
 		</dict>
 		<key>UIVideoView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			61JptKK57qds3aq6W7wKeZAJdBSU6uQkgBKyhBdts58=
+			1QYdpi6pkEUiLerchsXsjbh7XnBUiOvwD4KQsPhHGRk=
 			</data>
 		</dict>
 	</dict>

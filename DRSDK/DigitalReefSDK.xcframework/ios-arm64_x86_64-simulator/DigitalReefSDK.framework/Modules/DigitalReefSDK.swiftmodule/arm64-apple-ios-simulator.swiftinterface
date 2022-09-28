@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DigitalReefSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
 import AdSupport
 import AppTrackingTransparency
@@ -18,6 +19,7 @@ import SystemConfiguration
 import UIKit
 import UserNotifications
 import _Concurrency
+import _StringProcessing
 import os
 import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DigitalReef : ObjectiveC.NSObject {
@@ -31,9 +33,9 @@ import zlib
   @objc public func getEngagementAdsOptInStatus() -> Swift.Bool
   @objc public func optInToMonetizationAds(optIn: Swift.Bool)
   @objc public func getMonetizationAdsOptInStatus() -> Swift.Bool
-  @objc public func setOrganization(name: Swift.String, id: Swift.String)
   @objc public func getOrganizationName() -> Swift.String?
   @objc public func getOrganizationId() -> Swift.String?
+  @objc public func sendHostAppCountryCode(cc: Swift.String)
   @objc public func didRegisterForRemoteNotificationsWithDeviceToken(_ application: UIKit.UIApplication, deviceToken: Foundation.Data)
   @objc public func didReceiveRemoteNotification(application: UIKit.UIApplication, userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
   @objc public func didReceiveNotificationResponse(center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
@@ -44,7 +46,7 @@ import zlib
   @_Concurrency.MainActor(unsafe) public var inAppContent: DigitalReefSDK.InAppContent?
   @objc @_Concurrency.MainActor(unsafe) public var deeplink: Swift.String?
   @objc @_Concurrency.MainActor(unsafe) public var ctaType: Swift.String?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
@@ -202,13 +204,13 @@ extension Foundation.NSNotification.Name {
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class CustomNav : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @available(iOS 5.0, *)
@@ -219,7 +221,7 @@ extension Foundation.NSNotification.Name {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class UIVideoView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var videoHeight: CoreGraphics.CGFloat?
+  @_Concurrency.MainActor(unsafe) public var videoHeight: CoreFoundation.CGFloat?
   @objc @_Concurrency.MainActor(unsafe) public var adType: Swift.String?
   @objc @_Concurrency.MainActor(unsafe) public var adId: Swift.String?
   @objc @_Concurrency.MainActor(unsafe) public var campaignId: Swift.String?
@@ -250,10 +252,10 @@ extension Foundation.NSNotification.Name {
   @objc @_Concurrency.MainActor(unsafe) public func setSoundIcon()
   @objc @_Concurrency.MainActor(unsafe) public func setMuteIcon()
   @objc @_Concurrency.MainActor(unsafe) public var isMuted: Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc @_Concurrency.MainActor(unsafe) public func setVolumeIcon()
-  @objc @_Concurrency.MainActor(unsafe) public func playVideo(videoUrl url: Foundation.URL, videoAsset avAsset: AVFoundation.AVAsset?, image imageView: UIKit.UIImageView?, fullScrnMode fullScreenMode: Swift.Bool, muted videoMuted: Swift.Bool, videoFrmtFull videoFormatFull: Swift.Bool, adId adIdInfo: Swift.String, campaignId campaignIdInfo: Swift.String, adType adTypeInfo: Swift.String, height videoHeight: CoreGraphics.CGFloat, imgAndVidContainer imageAndVideoContainer: UIKit.UIView)
+  @objc @_Concurrency.MainActor(unsafe) public func playVideo(videoUrl url: Foundation.URL, videoAsset avAsset: AVFoundation.AVAsset?, image imageView: UIKit.UIImageView?, fullScrnMode fullScreenMode: Swift.Bool, muted videoMuted: Swift.Bool, videoFrmtFull videoFormatFull: Swift.Bool, adId adIdInfo: Swift.String, campaignId campaignIdInfo: Swift.String, adType adTypeInfo: Swift.String, height videoHeight: CoreFoundation.CGFloat, imgAndVidContainer imageAndVideoContainer: UIKit.UIView)
   @objc @_Concurrency.MainActor(unsafe) public func pauseVideo()
   @objc @_Concurrency.MainActor(unsafe) public func playVideo()
   @objc @_Concurrency.MainActor(unsafe) public func stopVideo()
@@ -265,7 +267,7 @@ extension UIKit.UIImageView {
   @_Concurrency.MainActor(unsafe) public func loadGif(asset: Swift.String)
 }
 @objc extension UIKit.UIImage {
-  @objc dynamic public class func gifForObjc(data: Foundation.Data, scale: CoreGraphics.CGFloat) -> UIKit.UIImage?
+  @objc dynamic public class func gifForObjc(data: Foundation.Data, scale: CoreFoundation.CGFloat) -> UIKit.UIImage?
 }
 extension UIKit.UIImage {
   public class func gif(data: Foundation.Data) -> (UIKit.UIImage?, Foundation.TimeInterval)

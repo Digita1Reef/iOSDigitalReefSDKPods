@@ -18,6 +18,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import UserNotifications
+import WebKit
 import _Concurrency
 import _StringProcessing
 import os
@@ -65,7 +66,7 @@ import zlib
   @objc public func removeStaleHistory()
   @objc public func getAll() -> [DigitalReefSDK.DRInAppModel]
   @objc public func getLaunchInAppMessages() -> [DigitalReefSDK.DRInAppModel]
-  @objc public func checkInAppAdExists(_ id: Swift.String) -> Swift.Bool
+  @objc public func checkInAppAdExists(_ id: Swift.String, adId: Swift.String) -> Swift.Bool
   @objc public func getPushClickInAppMessages(_ id: Swift.String) -> [DigitalReefSDK.DRInAppModel]
   @objc public func updateAdShown(_ id: Swift.String) -> Swift.Bool
   @objc public func getInAppMessagesFromInAppEvent(_ eventName: Swift.String) -> [DigitalReefSDK.DRInAppModel]
@@ -173,7 +174,7 @@ public struct InAppContent : Swift.Codable {
   @objc public func getOptInType() -> Swift.String
   public func showInAppMessages()
   public func updateOnlyInAppAdShownInDB(_ id: Swift.String)
-  public func checkInAppAdExists(_ id: Swift.String) -> Swift.Bool
+  public func checkInAppAdExists(_ id: Swift.String, adId: Swift.String) -> Swift.Bool
   public func showPushClickedInAppMessages(_ id: Swift.String)
   public func deleteAllInAppMessages()
   @objc public func closeLoader()
@@ -256,7 +257,7 @@ extension Foundation.NSNotification.Name {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc @_Concurrency.MainActor(unsafe) public func setVolumeIcon()
   @objc @_Concurrency.MainActor(unsafe) public func playVideo(videoUrl url: Foundation.URL, videoAsset avAsset: AVFoundation.AVAsset?, image imageView: UIKit.UIImageView?, fullScrnMode fullScreenMode: Swift.Bool, muted videoMuted: Swift.Bool, videoFrmtFull videoFormatFull: Swift.Bool, adId adIdInfo: Swift.String, campaignId campaignIdInfo: Swift.String, adType adTypeInfo: Swift.String, height videoHeight: CoreFoundation.CGFloat, imgAndVidContainer imageAndVideoContainer: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) public func pauseVideo()
+  @objc @_Concurrency.MainActor(unsafe) public func pauseVideo(pauseOnly: Swift.Bool = false)
   @objc @_Concurrency.MainActor(unsafe) public func playVideo()
   @objc @_Concurrency.MainActor(unsafe) public func stopVideo()
   @objc deinit

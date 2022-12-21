@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		2u8QpqTIVdLfFPfhsRVe8cucLeQ=
+		vYQU24GX0QNimI7lcrEyRriDhHc=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -74,15 +74,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AToQCV2MApmNTkF0XUHq7cp/cj8=
+		6jbPpcguxu92CnRxXvvo1tV4wso=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		vFKf79lzZqPOOFdxy+z6ni3vgd8=
+		QkhyNr9ApMcSniXNBWGOf7GLVos=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		t1zrucKHGgTdxQ+3uDJ4asHsKzI=
+		Vmtq1U1UfCRTflxzAKH81S66GGg=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -90,15 +90,19 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		t1zrucKHGgTdxQ+3uDJ4asHsKzI=
+		Vmtq1U1UfCRTflxzAKH81S66GGg=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BfgCFmX2AcHbl6o4qdxGhT9FiJU=
+		bipso46tJE6dJhcsqUgWiRZ5jNA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		6nz2xp63ZwVuZiuyoBpdBcrnY14=
+		</data>
+		<key>PushRewardsVC.nib</key>
+		<data>
+		RLJHAzX0KIxEZi/e5r34OuMeFQU=
 		</data>
 		<key>UIVideoView.nib</key>
 		<data>
@@ -181,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uq7P7xD8SgTvXj045kIcPEOWYq1VJhMr8SZ8or1O+PU=
+			rZfs/HqH1C5IJEniHp5PHVGyUYJhbpfNshzs7KdLiHo=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -230,14 +234,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jMuL4CESPMeLz+58Xb/SHKWyAcw06jdF/xMATgd9Gk=
+			qBSnYSb7SSs4Xaq6UdvTzsrNtTwHgsIKhiYCWRNIpc0=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CDgX507apLKQYYQU7TZrNtlABKiAus+k6ATPTDMOv3w=
+			TPistsXsZKdYzYWFliKax+TPvq1n8mTZDxHXaZJQenM=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -251,14 +255,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CDgX507apLKQYYQU7TZrNtlABKiAus+k6ATPTDMOv3w=
+			TPistsXsZKdYzYWFliKax+TPvq1n8mTZDxHXaZJQenM=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ftFfIf7aEQsbrjFLXjiFutgOQXdZFrLVHi0OxqNryjE=
+			ZJuowgbuo4Md8N+0R+ZkQHcbuaYu3XYo31JzPE8iTKE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -266,6 +270,13 @@
 			<key>hash2</key>
 			<data>
 			0ZhVrtlhWnAFe/EuompmmJmcJpCkxO4sMmo8eTO2m08=
+			</data>
+		</dict>
+		<key>PushRewardsVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5SE2rrqqGBxqtARVcW0IqBxV16bJ5Qto3JJLosaSR+o=
 			</data>
 		</dict>
 		<key>UIVideoView.nib</key>

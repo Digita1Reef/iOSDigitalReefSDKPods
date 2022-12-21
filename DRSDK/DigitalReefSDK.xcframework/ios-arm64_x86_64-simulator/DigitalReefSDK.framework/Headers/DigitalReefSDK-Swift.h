@@ -408,7 +408,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) InAppMessage
 - (void)removeStaleHistory;
 - (NSArray<DRInAppModel *> * _Nonnull)getAll SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getLaunchInAppMessages SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)checkInAppAdExists:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)checkInAppAdExists:(NSString * _Nonnull)id adId:(NSString * _Nonnull)adId SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getPushClickInAppMessages:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)updateAdShown:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getInAppMessagesFromInAppEvent:(NSString * _Nonnull)eventName SWIFT_WARN_UNUSED_RESULT;
@@ -437,6 +437,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK17LocalInAppMessage")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -490,7 +491,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (void)setVolumeIcon;
 - (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight imgAndVidContainer:(UIView * _Nonnull)imageAndVideoContainer;
-- (void)pauseVideo;
+- (void)pauseVideoWithPauseOnly:(BOOL)pauseOnly;
 - (void)playVideo;
 - (void)stopVideo;
 @end
@@ -913,7 +914,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) InAppMessage
 - (void)removeStaleHistory;
 - (NSArray<DRInAppModel *> * _Nonnull)getAll SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getLaunchInAppMessages SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)checkInAppAdExists:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)checkInAppAdExists:(NSString * _Nonnull)id adId:(NSString * _Nonnull)adId SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getPushClickInAppMessages:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)updateAdShown:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getInAppMessagesFromInAppEvent:(NSString * _Nonnull)eventName SWIFT_WARN_UNUSED_RESULT;
@@ -942,6 +943,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK17LocalInAppMessage")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -995,7 +997,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (void)setVolumeIcon;
 - (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight imgAndVidContainer:(UIView * _Nonnull)imageAndVideoContainer;
-- (void)pauseVideo;
+- (void)pauseVideoWithPauseOnly:(BOOL)pauseOnly;
 - (void)playVideo;
 - (void)stopVideo;
 @end

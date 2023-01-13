@@ -11618,7 +11618,7 @@
       "kind": "StringLiteral",
       "offset": 1410,
       "length": 8,
-      "value": "\"4.11.0\""
+      "value": "\"4.11.1\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
@@ -14521,28 +14521,28 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStatePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 833,
-      "length": 35,
+      "offset": 834,
+      "length": 55,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStatePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 850,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStatePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 867,
+      "offset": 888,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStatePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1921,
+      "offset": 1985,
       "length": 5,
       "value": "false"
     },
@@ -14696,252 +14696,252 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1216,
       "length": 8,
       "value": "\"static\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1247,
       "length": 9,
       "value": "\"dynamic\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1273,
       "length": 6,
       "value": "\"None\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1216,
       "length": 8,
       "value": "\"static\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1247,
       "length": 9,
       "value": "\"dynamic\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1273,
       "length": 6,
       "value": "\"None\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1376,
       "length": 10,
       "value": "\"HOST_APP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1376,
       "length": 10,
       "value": "\"HOST_APP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1936,
+      "offset": 2046,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 2063,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1972,
+      "offset": 2082,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1989,
+      "offset": 2099,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2010,
+      "offset": 2120,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2031,
+      "offset": 2141,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1936,
+      "offset": 2046,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 2063,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1972,
+      "offset": 2082,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1989,
+      "offset": 2099,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2010,
+      "offset": 2120,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2031,
+      "offset": 2141,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1936,
+      "offset": 2046,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 2063,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1972,
+      "offset": 2082,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1989,
+      "offset": 2099,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2010,
+      "offset": 2120,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2031,
+      "offset": 2141,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2075,
+      "offset": 2185,
       "length": 3,
       "value": "\"I\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2092,
+      "offset": 2202,
       "length": 3,
       "value": "\"U\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2110,
+      "offset": 2220,
       "length": 4,
       "value": "\"TP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2075,
+      "offset": 2185,
       "length": 3,
       "value": "\"I\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2092,
+      "offset": 2202,
       "length": 3,
       "value": "\"U\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2110,
+      "offset": 2220,
       "length": 4,
       "value": "\"TP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2160,
+      "offset": 2270,
       "length": 4,
       "value": "\"FP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2179,
+      "offset": 2289,
       "length": 4,
       "value": "\"TP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2160,
+      "offset": 2270,
       "length": 4,
       "value": "\"FP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/Models\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2179,
+      "offset": 2289,
       "length": 4,
       "value": "\"TP\""
     },
@@ -16005,49 +16005,49 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16065,
+      "offset": 16109,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17040,
+      "offset": 17084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17716,
+      "offset": 17760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 18389,
+      "offset": 18433,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 27727,
+      "offset": 27771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 33757,
+      "offset": 33801,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 35423,
+      "offset": 35467,
       "length": 5,
       "value": "false"
     },
@@ -16187,7 +16187,7 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/PUSHREWARDS\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/ConfigManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6312,
+      "offset": 6318,
       "length": 5,
       "value": "false"
     },

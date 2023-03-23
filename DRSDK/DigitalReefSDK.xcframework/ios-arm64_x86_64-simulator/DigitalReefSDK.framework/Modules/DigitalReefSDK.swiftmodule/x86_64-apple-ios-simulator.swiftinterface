@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DigitalReefSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -26,6 +26,9 @@ import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DigitalReef : ObjectiveC.NSObject {
   @objc public static let shared: DigitalReefSDK.DigitalReef
   @objc public static func includeMediaAttachment(request: UserNotifications.UNNotificationRequest, mutableContent: UserNotifications.UNMutableNotificationContent, contentHandler: @escaping ((UserNotifications.UNNotificationContent) -> Swift.Void))
+  @objc public func addOTAObserver(_ otaObserver: DigitalReefSDK.OTAObserver)
+  @objc public func removeOTAObserver(_ otaObserver: DigitalReefSDK.OTAObserver)
+  @objc public func notifySDKForOTAEventPerformedInHostApp(otaPromotionId: Swift.String, otaEvent: DigitalReefSDK.OTAEvent)
   @objc public static func requestPushPermission()
   @objc public static func sendEvent(name: Swift.String)
   @objc public func requestAppTrackingTransparencyPermission()
@@ -90,6 +93,7 @@ import zlib
   @objc public func gifDisplayedAdAnalytics(adId: Swift.String, campaignId: Swift.String)
   @objc public func gifCompletedAdAnalytics(adId: Swift.String, campaignId: Swift.String)
   @objc public func notificationClearedAdAnalytics(adId: Swift.String, campaignId: Swift.String)
+  @objc public func notificationOptedOutAdAnalytics(adId: Swift.String, campaignId: Swift.String)
   @objc deinit
 }
 public struct CompressionLevel : Swift.RawRepresentable {
@@ -150,6 +154,7 @@ public typealias InAppMessageData = [Swift.AnyHashable : Any]
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class GzManager : ObjectiveC.NSObject {
   @objc public static let shared: DigitalReefSDK.GzManager
+  @objc public func gzipped(dataToBeCompressed: Foundation.Data)
   @objc public func gunzippedDictionary(dataContent: Swift.String) -> Foundation.NSDictionary?
   @objc deinit
 }
@@ -165,6 +170,8 @@ public struct InAppContent : Swift.Codable {
   @objc public static let shared: DigitalReefSDK.DRNotificationHandler
   @objc public var engagementPushClicked: Swift.Bool
   @objc public var engagementInAppOpened: Swift.Bool
+  @objc public func syncOptedOutAds()
+  @objc public func syncClearedAds()
   @objc public func getEngagementAdOptInStatus() -> Swift.Bool
   @objc public func getMonetizationAdOptInStatus() -> Swift.Bool
   @objc public func logToSDK(msg: Swift.String)
@@ -281,3 +288,45 @@ extension UIKit.UIImage {
   public static func isConnected() -> Swift.Bool
   @objc deinit
 }
+@objc public protocol OTAObserver {
+  @objc func received(otaPromotion: DigitalReefSDK.OTAPromotion)
+  @objc func receivedAction(otaPromotionId: Swift.String, otaEvent: DigitalReefSDK.OTAEvent)
+}
+@objc public enum OTAEvent : Swift.Int {
+  case VIEWED = 1
+  case CLICK = 2
+  case CLOSED_NOTIFICATION = 3
+  case ERROR = 4
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class OTAPromotion : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var id: Swift.String
+  @objc public var actionUrl: Swift.String
+  @objc public var actionType: Swift.String
+  @objc public var category: Swift.String
+  @objc public var actionId: Swift.String
+  @objc public var otaNotification: DigitalReefSDK.OtaNotification
+  @objc public var createdAt: Swift.Int
+  @objc public var startedAt: Swift.Int
+  @objc public var finalizedAt: Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers @objc public class OtaNotification : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var contentTitle: Swift.String
+  @objc public var contentText: Swift.String
+  @objc public var expandedIcon: Swift.String
+  @objc public var icon: Swift.String
+  @objc public var bigImage: Swift.String
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+extension DigitalReefSDK.OTAEvent : Swift.Equatable {}
+extension DigitalReefSDK.OTAEvent : Swift.Hashable {}
+extension DigitalReefSDK.OTAEvent : Swift.RawRepresentable {}

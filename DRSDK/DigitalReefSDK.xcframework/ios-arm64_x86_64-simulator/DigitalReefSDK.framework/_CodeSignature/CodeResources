@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		Y0UdC2YTNWBmOMbce3iio+Opy7o=
+		CecMHYwTVgAxYG60Xg/DF6cWMjo=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -74,15 +74,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+72T2Ww3gtmX2LLqqjU7puIKl9Y=
+		O54N0XUOMWV3wcdlmj+Mwgq/pus=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nT0e3jVcwFnqV3E6ZHaurJx08aU=
+		guQfkoAPZgqOucljWvArwN6UZbk=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Dodkq5MHYPD8vwmHKng6/TbW9f4=
+		hCbpH2Qn0VjBemk5EnJS1fN8HG8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,19 +90,19 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Dodkq5MHYPD8vwmHKng6/TbW9f4=
+		hCbpH2Qn0VjBemk5EnJS1fN8HG8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V6tM13e7/SZmI0iDzAVBPH45ofs=
+		jfSMBv415RPm/kFBqnqZqnftEWo=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nT0e3jVcwFnqV3E6ZHaurJx08aU=
+		guQfkoAPZgqOucljWvArwN6UZbk=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CYswO79QCjJbwn1xzHRYTdJULaI=
+		V2WI93cDpbPdVoIRpwzqnc2s/50=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CYswO79QCjJbwn1xzHRYTdJULaI=
+		V2WI93cDpbPdVoIRpwzqnc2s/50=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zyR6FnKSavZt/Hz99X2x2vLD4nI=
+		FxpldDcZNS8I9D+HtTurpPKsfVU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -205,7 +205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HY8G/7kjI/S2iNRDUIC74Wc5HMSfhtSlcN4TpSL6pd4=
+			Iwf4j46xR6xY6s2g6MYhmdUApuvayWEy5r+AePy1+P4=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -254,14 +254,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zYM9dPHiR/lUwvqhewoUWvOU9FiH5sii2DeeRnfEVCU=
+			0rnvn71H4BgSrmLXD3Ugkc8hLJzewKSa2Vc6c9GvOFY=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qln8Hol7sMbWVpqXrnOXhVjurQzz8WrZ6Dl831CBZ9s=
+			c5mabb2Cx9a7cyHZFH7QxdTetlK9Z/b36pH8j7yoz78=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -275,28 +275,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qln8Hol7sMbWVpqXrnOXhVjurQzz8WrZ6Dl831CBZ9s=
+			c5mabb2Cx9a7cyHZFH7QxdTetlK9Z/b36pH8j7yoz78=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YDemwA0V+yIxMuIyPqhk+v3f5iwcV5WE2QO/iZnVEXQ=
+			OsE+RcW6CLWQvEgGsvSWKnL9/SqZ0lX4LBt9r4cc2QQ=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zYM9dPHiR/lUwvqhewoUWvOU9FiH5sii2DeeRnfEVCU=
+			0rnvn71H4BgSrmLXD3Ugkc8hLJzewKSa2Vc6c9GvOFY=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9g5yb8cYMcpZHPiuGHZyyhxcfnpnAE44NPbYn38hnMk=
+			o4KAezDebgL4XS8CIwuICXC6tgakhG3ziahF9svgLIw=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -310,14 +310,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9g5yb8cYMcpZHPiuGHZyyhxcfnpnAE44NPbYn38hnMk=
+			o4KAezDebgL4XS8CIwuICXC6tgakhG3ziahF9svgLIw=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1slFHjVsQmNLemqllc3z7LsWhiydWXxfavgjj325MsY=
+			FHxkZWhsyC+Ji7yg+Eo3Bei13h8aOoooxVt+qN0DtJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

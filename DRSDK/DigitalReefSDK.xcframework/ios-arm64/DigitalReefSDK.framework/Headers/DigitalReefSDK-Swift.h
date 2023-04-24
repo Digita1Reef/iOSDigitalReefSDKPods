@@ -265,6 +265,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK18AdAnalyticsManager")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)adBackGroundedAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
+- (void)sendAppTerminatedAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (void)adShownAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId;
 - (void)adClosedAnalyticsWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId hasVideo:(BOOL)hasVideo videoView:(UIVideoView * _Nullable)videoView;
 - (void)adClosedWithNewNotificationWithAdId:(NSString * _Nonnull)adId campaignId:(NSString * _Nonnull)campaignId hasVideo:(BOOL)hasVideo videoView:(UIVideoView * _Nullable)videoView;
@@ -547,7 +548,9 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (void)pauseVideoWithPauseOnly:(BOOL)pauseOnly;
 - (void)playVideo;
 - (void)stopVideo;
+- (void)closeFullScreen;
 @end
+
 
 #endif
 #if defined(__cplusplus)

@@ -85,6 +85,7 @@ import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class AdAnalyticsManager : ObjectiveC.NSObject {
   @objc public class func sharedInstance() -> DigitalReefSDK.AdAnalyticsManager
   @objc public func adBackGroundedAnalytics(adId: Swift.String, campaignId: Swift.String)
+  @objc public func sendAppTerminatedAnalytics(adId: Swift.String, campaignId: Swift.String)
   @objc public func adShownAnalytics(adId: Swift.String, campaignId: Swift.String)
   @objc public func adClosedAnalytics(adId: Swift.String, campaignId: Swift.String, hasVideo: Swift.Bool, videoView: DigitalReefSDK.UIVideoView?)
   @objc public func adClosedWithNewNotification(adId: Swift.String, campaignId: Swift.String, hasVideo: Swift.Bool, videoView: DigitalReefSDK.UIVideoView?)
@@ -267,6 +268,7 @@ extension Foundation.NSNotification.Name {
   @objc @_Concurrency.MainActor(unsafe) public func pauseVideo(pauseOnly: Swift.Bool = false)
   @objc @_Concurrency.MainActor(unsafe) public func playVideo()
   @objc @_Concurrency.MainActor(unsafe) public func stopVideo()
+  @objc @_Concurrency.MainActor(unsafe) public func closeFullScreen()
   @objc deinit
 }
 extension UIKit.UIImageView {

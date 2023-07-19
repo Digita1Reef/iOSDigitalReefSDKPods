@@ -6,6 +6,7 @@ import AVKit
 import AdSupport
 import AppTrackingTransparency
 import AuthenticationServices
+import BackgroundTasks
 import CoreMedia
 import CoreTelephony
 @_exported import DigitalReefSDK
@@ -25,6 +26,10 @@ import os
 import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DigitalReef : ObjectiveC.NSObject {
   @objc public static let shared: DigitalReefSDK.DigitalReef
+  public var flutterDelegate: DigitalReefSDK.FlutterDelegate? {
+    get
+    set
+  }
   @objc public static func includeMediaAttachment(request: UserNotifications.UNNotificationRequest, mutableContent: UserNotifications.UNMutableNotificationContent, contentHandler: @escaping ((UserNotifications.UNNotificationContent) -> Swift.Void))
   @objc public func addOTAObserver(_ otaObserver: DigitalReefSDK.OTAObserver)
   @objc public func removeOTAObserver(_ otaObserver: DigitalReefSDK.OTAObserver)
@@ -45,6 +50,9 @@ import zlib
   @objc public func didReceiveNotificationResponse(center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
   @objc public func willPresentNotification(center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc deinit
+}
+public protocol FlutterDelegate {
+  func disableFlutterView(_ value: Swift.Bool)
 }
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class InAPPUIButton : UIKit.UIButton {
   @_Concurrency.MainActor(unsafe) public var inAppContent: DigitalReefSDK.InAppContent?
@@ -143,6 +151,7 @@ extension Foundation.Data {
 public typealias InAppMessageData = [Swift.AnyHashable : Any]
 @objc final public class LocalInAppMessage : ObjectiveC.NSObject {
   final public var messageShownComplete: Swift.Bool
+  final public var dismissMessage: ((Swift.Bool) -> Swift.Void)?
   public init(_ data: DigitalReefSDK.InAppMessageData)
   public init(_ model: DigitalReefSDK.DRInAppModel)
   final public func show(_ completion: (() -> Swift.Void)?)
@@ -171,6 +180,10 @@ public struct InAppContent : Swift.Codable {
   @objc public static let shared: DigitalReefSDK.DRNotificationHandler
   @objc public var engagementPushClicked: Swift.Bool
   @objc public var engagementInAppOpened: Swift.Bool
+  @objc public var adIsAppearing: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc public func syncOptedOutAds()
   @objc public func syncClearedAds()
   @objc public func getEngagementAdOptInStatus() -> Swift.Bool

@@ -7,6 +7,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DigitalReefShowInApp : UIView
 
+@property (nonatomic, copy) void (^dismissMessage)(BOOL);
 @property (strong, nonatomic) IBOutlet UIView *alertView;
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImageView;
 @property (strong, nonatomic) IBOutlet UIStackView *fsInAppCenterContent;

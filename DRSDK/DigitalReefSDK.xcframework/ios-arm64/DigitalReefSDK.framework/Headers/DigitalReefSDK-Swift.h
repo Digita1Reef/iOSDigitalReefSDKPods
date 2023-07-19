@@ -321,6 +321,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 + (DRNotificationHandler * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic) BOOL engagementPushClicked;
 @property (nonatomic) BOOL engagementInAppOpened;
+@property (nonatomic) BOOL adIsAppearing;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)syncOptedOutAds;
@@ -492,6 +493,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK15OtaNotification")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

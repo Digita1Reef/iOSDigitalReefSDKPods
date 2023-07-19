@@ -97,6 +97,111 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "flutterDelegate",
+            "printedName": "flutterDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DigitalReefSDK.FlutterDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterDelegate",
+                    "printedName": "DigitalReefSDK.FlutterDelegate",
+                    "usr": "s:14DigitalReefSDK15FlutterDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvp",
+            "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DigitalReefSDK.FlutterDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDelegate",
+                        "printedName": "DigitalReefSDK.FlutterDelegate",
+                        "usr": "s:14DigitalReefSDK15FlutterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvg",
+                "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvg",
+                "moduleName": "DigitalReefSDK",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DigitalReefSDK.FlutterDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDelegate",
+                        "printedName": "DigitalReefSDK.FlutterDelegate",
+                        "usr": "s:14DigitalReefSDK15FlutterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvs",
+                "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvs",
+                "moduleName": "DigitalReefSDK",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvM",
+                "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvM",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "includeMediaAttachment",
             "printedName": "includeMediaAttachment(request:mutableContent:contentHandler:)",
@@ -811,6 +916,47 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterDelegate",
+        "printedName": "FlutterDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "disableFlutterView",
+            "printedName": "disableFlutterView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DigitalReefSDK15FlutterDelegateP07disableD4ViewyySbF",
+            "mangledName": "$s14DigitalReefSDK15FlutterDelegateP07disableD4ViewyySbF",
+            "moduleName": "DigitalReefSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DigitalReefSDK.FlutterDelegate>",
+            "sugared_genericSig": "<Self where Self : DigitalReefSDK.FlutterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14DigitalReefSDK15FlutterDelegateP",
+        "mangledName": "$s14DigitalReefSDK15FlutterDelegateP",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -1715,6 +1861,16 @@
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
           "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -4410,6 +4566,162 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "dismissMessage",
+            "printedName": "dismissMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvp",
+            "mangledName": "$s14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvg",
+                "mangledName": "$s14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvs",
+                "mangledName": "$s14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvM",
+                "mangledName": "$s14DigitalReefSDK17LocalInAppMessageC07dismissG0ySbcSgvM",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(_:)",
@@ -5216,6 +5528,23 @@
       },
       {
         "kind": "Import",
+        "name": "BackgroundTasks",
+        "printedName": "BackgroundTasks",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "RealmSwift",
         "printedName": "RealmSwift",
         "declKind": "Import",
@@ -5462,6 +5791,99 @@
                 "declKind": "Accessor",
                 "usr": "s:14DigitalReefSDK21DRNotificationHandlerC21engagementInAppOpenedSbvM",
                 "mangledName": "$s14DigitalReefSDK21DRNotificationHandlerC21engagementInAppOpenedSbvM",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adIsAppearing",
+            "printedName": "adIsAppearing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigitalReefSDK@objc(cs)DRNotificationHandler(py)adIsAppearing",
+            "mangledName": "$s14DigitalReefSDK21DRNotificationHandlerC13adIsAppearingSbvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigitalReefSDK@objc(cs)DRNotificationHandler(im)adIsAppearing",
+                "mangledName": "$s14DigitalReefSDK21DRNotificationHandlerC13adIsAppearingSbvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigitalReefSDK@objc(cs)DRNotificationHandler(im)setAdIsAppearing:",
+                "mangledName": "$s14DigitalReefSDK21DRNotificationHandlerC13adIsAppearingSbvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK21DRNotificationHandlerC13adIsAppearingSbvM",
+                "mangledName": "$s14DigitalReefSDK21DRNotificationHandlerC13adIsAppearingSbvM",
                 "moduleName": "DigitalReefSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10370,6 +10792,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SystemConfiguration",
         "printedName": "SystemConfiguration",
         "declKind": "Import",
@@ -13934,7 +14366,7 @@
       "kind": "StringLiteral",
       "offset": 1604,
       "length": 8,
-      "value": "\"4.14.1\""
+      "value": "\"4.15.3\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
@@ -14010,7 +14442,7 @@
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1988,
-      "length": 37,
+      "length": 23,
       "value": "\"\""
     },
     {
@@ -14018,588 +14450,637 @@
       "kind": "StringLiteral",
       "offset": 1999,
       "length": 1,
-      "value": "\"\/device\/v3?nt=wifi&&ln=en\""
+      "value": "\"\/device\/v3?\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2063,
+      "offset": 2066,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2074,
+      "offset": 2077,
       "length": 1,
       "value": "\"\/configs\/v2\/remoteConfig\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2132,
-      "length": 23,
+      "offset": 2135,
+      "length": 80,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2154,
+      "offset": 2157,
+      "length": 1,
+      "value": "\"?\""
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2198,
+      "length": 1,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2214,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
+      "offset": 2280,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2231,
+      "offset": 2291,
       "length": 1,
       "value": "\"\/adapi\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2268,
+      "offset": 2328,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2339,
       "length": 1,
       "value": "\"\/adapi\/v3\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2325,
+      "offset": 2385,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2336,
+      "offset": 2396,
       "length": 1,
       "value": "\"\/adapi\/v3\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2379,
-      "length": 38,
+      "offset": 2439,
+      "length": 95,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2406,
+      "offset": 2466,
       "length": 1,
-      "value": "\"\/analytics\""
+      "value": "\"\/analytics?\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2448,
+      "offset": 2517,
+      "length": 1,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
       "length": 14,
       "value": "\"REMOTECONFIG\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2609,
       "length": 13,
       "value": "\"LocalConfig\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2534,
+      "offset": 2651,
       "length": 17,
       "value": "\"oldOrganization\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2581,
+      "offset": 2698,
       "length": 18,
       "value": "\"baseOrganization\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2630,
+      "offset": 2747,
       "length": 14,
       "value": "\"orgSelection\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2670,
+      "offset": 2787,
       "length": 14,
       "value": "\"organization\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2708,
+      "offset": 2825,
       "length": 16,
       "value": "\"organizationId\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2750,
+      "offset": 2867,
       "length": 18,
       "value": "\"organizationType\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2790,
+      "offset": 2907,
       "length": 19,
       "value": "\"MOBILECOUNTRYCODE\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2839,
+      "offset": 2956,
       "length": 13,
       "value": "\"HOSTAPPCODE\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3195,
+      "offset": 3312,
       "length": 15,
       "value": "\"Configuration\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3353,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 3383,
       "length": 7,
       "value": "\"plist\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3308,
+      "offset": 3425,
       "length": 18,
       "value": "\"CLIENTATTRIBUTES\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3355,
+      "offset": 3472,
       "length": 12,
       "value": "\"DEVICEINFO\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3397,
+      "offset": 3514,
       "length": 13,
       "value": "\"DEVICESTATE\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3433,
+      "offset": 3550,
       "length": 6,
       "value": "\"IDFV\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3579,
       "length": 6,
       "value": "\"IDFA\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3497,
+      "offset": 3614,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3529,
+      "offset": 3646,
       "length": 5,
       "value": "\"SDK\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3561,
+      "offset": 3678,
       "length": 11,
       "value": "\"APNSTOKEN\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3597,
+      "offset": 3714,
       "length": 8,
       "value": "\"DR_SDK\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3634,
+      "offset": 3751,
       "length": 12,
       "value": "\"UPDATEIDFA\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3670,
+      "offset": 3787,
       "length": 7,
       "value": "\"debug\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3703,
+      "offset": 3820,
       "length": 9,
       "value": "\"release\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 3860,
       "length": 23,
       "value": "\"appInstalledFirstTime\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3800,
+      "offset": 3917,
       "length": 19,
       "value": "\"drAppForegrounded\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3853,
+      "offset": 3970,
       "length": 19,
       "value": "\"drLastSessionTime\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3906,
+      "offset": 4023,
       "length": 14,
       "value": "\"drAppInstall\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3956,
+      "offset": 4073,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 3999,
+      "offset": 4116,
       "length": 6,
       "value": "3600.0"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4033,
+      "offset": 4150,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4068,
+      "offset": 4185,
       "length": 6,
       "value": "\"iuid\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4100,
+      "offset": 4217,
       "length": 9,
       "value": "\"COOKIES\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4138,
+      "offset": 4255,
       "length": 8,
       "value": "\"tel:\/\/\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4177,
+      "offset": 4294,
       "length": 14,
       "value": "\"itms-apps:\/\/\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4213,
+      "offset": 4330,
       "length": 5,
       "value": "\"YES\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4239,
+      "offset": 4356,
       "length": 4,
       "value": "\"NO\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4268,
+      "offset": 4385,
       "length": 9,
       "value": "\"Opt Out\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4306,
+      "offset": 4423,
       "length": 56,
       "value": "\"Are you sure you wish to opt-out from the ads services\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4402,
+      "offset": 4519,
       "length": 23,
       "value": "\"updateCurrentSeekTime\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4472,
+      "offset": 4589,
       "length": 30,
       "value": "\"previousSyncedDeviceDataDate\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 4544,
+      "offset": 4661,
       "length": 7,
       "value": "28800.0"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 4724,
+      "length": 5,
+      "value": "300.0"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 4758,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4606,
+      "offset": 4801,
       "length": 22,
       "value": "\"pushNotificationData\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4670,
+      "offset": 4865,
       "length": 25,
       "value": "\"userDefaultsAppGroupKey\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4732,
+      "offset": 4927,
       "length": 20,
       "value": "\"realmDBAppGroupKey\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4781,
+      "offset": 4976,
       "length": 12,
       "value": "\"ENG_OPT_IN\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4823,
+      "offset": 5018,
       "length": 13,
       "value": "\"ENG_OPT_OUT\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4865,
+      "offset": 5060,
       "length": 12,
       "value": "\"MON_OPT_IN\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4907,
+      "offset": 5102,
       "length": 13,
       "value": "\"MON_OPT_OUT\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4964,
+      "offset": 5159,
       "length": 27,
       "value": "\"HANDLE_PERMISSION_CHANGES\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5022,
+      "offset": 5217,
       "length": 14,
       "value": "\"IDFA_GRANTED\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5071,
+      "offset": 5266,
       "length": 18,
       "value": "\"IDFA_NOT_GRANTED\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5120,
+      "offset": 5315,
       "length": 14,
       "value": "\"OPT_IN_STATE\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5182,
+      "offset": 5377,
       "length": 31,
       "value": "\"TRACKING_PERMISSION_REQUESTED\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5259,
+      "offset": 5454,
       "length": 29,
       "value": "\"TRACKING_PERMISSION_GRANTED\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5314,
+      "offset": 5509,
       "length": 10,
       "value": "\"_journey\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5362,
+      "offset": 5557,
       "length": 21,
       "value": "\"engagementAdOptedIn\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 5618,
       "length": 23,
       "value": "\"monetizationAdOptedIn\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5476,
+      "offset": 5671,
       "length": 13,
       "value": "\"HEADERTOKEN\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5513,
+      "offset": 5708,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5543,
+      "offset": 5738,
       "length": 6,
       "value": "\"iuid\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5576,
+      "offset": 5771,
       "length": 24,
       "value": "\"imaginationunwired.com\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5626,
+      "offset": 5821,
       "length": 12,
       "value": "\"SDKVERSION\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5659,
+      "offset": 5854,
       "length": 4,
       "value": "\"ID\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5704,
+      "offset": 5899,
       "length": 15,
       "value": "\"{{timestamp}}\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5755,
+      "offset": 5950,
       "length": 11,
       "value": "\"{{event}}\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5789,
+      "offset": 5984,
       "length": 6,
       "value": "\"NONE\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5821,
+      "offset": 6016,
       "length": 10,
       "value": "\"HOST_APP\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5869,
+      "offset": 6064,
       "length": 21,
       "value": "\"REMOTECONFIGVERSION\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
+      "offset": 6117,
       "length": 15,
       "value": "\"FIREBASETOKEN\""
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 6165,
+      "length": 6,
+      "value": "\"SDIU\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/AdsBaseViewController.swift",
@@ -14667,21 +15148,21 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/AdsBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2353,
+      "offset": 2397,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/AdsBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2567,
+      "offset": 2611,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/AdsBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2914,
+      "offset": 2958,
       "length": 5,
       "value": "false"
     },
@@ -16711,7 +17192,42 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4567,
+      "offset": 3134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5511,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5539,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8477,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8505,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8552,
       "length": 5,
       "value": "false"
     },
@@ -16868,13 +17384,6 @@
       "offset": 888,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStatePresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1985,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdLoader.swift",
@@ -18335,63 +18844,70 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1675,
+      "offset": 840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13967,
+      "offset": 2165,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 14859,
+      "offset": 14900,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15527,
+      "offset": 15792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16206,
+      "offset": 16460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17628,
+      "offset": 17139,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 29074,
+      "offset": 18561,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 34335,
+      "offset": 30359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 35945,
+      "offset": 35695,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37452,
       "length": 5,
       "value": "false"
     },
@@ -18447,49 +18963,49 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "StringLiteral",
-      "offset": 1358,
+      "offset": 1402,
       "length": 11,
       "value": "\"M-G-S-F-X\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4142,
+      "offset": 4290,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7451,
+      "offset": 7599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7510,
+      "offset": 7658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23001,
+      "offset": 23149,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25633,
+      "offset": 25781,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26411,
+      "offset": 26559,
       "length": 5,
       "value": "false"
     },
@@ -18832,58 +19348,79 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 948,
+      "offset": 964,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1017,
+      "offset": 1033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1083,
+      "offset": 1099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8740,
+      "offset": 1163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8774,
+      "offset": 9289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9203,
+      "offset": 9323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9260,
+      "offset": 9752,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9765,
+      "offset": 9809,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9864,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10397,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 10,
+      "value": "\"DigitalReefSDK.HTTPClient\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/NetworkMonitor.swift",
@@ -18965,42 +19502,35 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 16357,
+      "offset": 16437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 27178,
+      "offset": 38450,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38050,
+      "offset": 38906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38506,
+      "offset": 41438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 41203,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 41510,
+      "offset": 41745,
       "length": 5,
       "value": "false"
     },

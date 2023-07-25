@@ -14366,7 +14366,7 @@
       "kind": "StringLiteral",
       "offset": 1604,
       "length": 8,
-      "value": "\"4.15.3\""
+      "value": "\"4.15.4\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
@@ -15430,7 +15430,7 @@
       "kind": "StringLiteral",
       "offset": 2052,
       "length": 20,
-      "value": "\"ClOSE_PUSH_REWARDS\""
+      "value": "\"CLOSE_PUSH_REWARDS\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppAnalytics\/Models\/AdAnalytics.swift",
@@ -15528,7 +15528,7 @@
       "kind": "StringLiteral",
       "offset": 2052,
       "length": 20,
-      "value": "\"ClOSE_PUSH_REWARDS\""
+      "value": "\"CLOSE_PUSH_REWARDS\""
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppAnalytics\/Models\/AdAnalytics.swift",
@@ -19502,35 +19502,35 @@
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 16437,
+      "offset": 15790,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38450,
+      "offset": 37437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38906,
+      "offset": 37893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 41438,
+      "offset": 40425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shamsundarshinde\/Desktop\/DRBASE\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 41745,
+      "offset": 40732,
       "length": 5,
       "value": "false"
     },

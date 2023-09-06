@@ -14,11 +14,11 @@
 		</data>
 		<key>AdsBaseViewController.nib/runtime.nib</key>
 		<data>
-		Tjmj0LQbQy2X15IqIQg+T2k+Sj0=
+		QMH8mhDUXso2qfRb79po/y/6zU8=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Py4gEtBbmxi5aZJ3c6pJTO3COSw=
+		tKK2x/N4gGY8nBKEDG4JYpd3DcQ=
 		</data>
 		<key>Config.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>DigitalReefShowInApp.nib</key>
 		<data>
-		9tKJGHvjsEWzQ7hA2nUk8GSaZsY=
+		q5DFL0tq0ty6pCL6i2VDxOasJDk=
 		</data>
 		<key>FullScreenVideoViewController.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		ujvK5m70vjds1NWY9iAPQ/cXDOo=
+		gf5+HRc95BHV6ldumtI74XlTs9U=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/DigitalReefShowInApp.h</key>
 		<data>
-		xfUE3kcGVS/yVT3zrousqctykmk=
+		oFHZqjpKQtLxGR16elFEh8CNUZI=
 		</data>
 		<key>Headers/DigitalReefUNUserNotificationCenter.h</key>
 		<data>
@@ -74,27 +74,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1TFrfPYxghqo+FDbflqVB1UrSzc=
+		sHerIqJdA2zbitE1XmFutH5o67o=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		smZlznP1xs2o2CN/Y9Bq1wkY/lk=
+		BBF/JytYOeDyshyqVxcAQSerNGQ=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		w4rYFHS5cY6d98RWspJjyv7Wfpo=
+		ICwnoL4+h1u5b1XuKmK6MToZr6k=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		fqSbC5VTssp0KEjgGcjycVvIjMo=
+		LdFmmsPwPC2F4OHDIL8RlWCAck8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		w4rYFHS5cY6d98RWspJjyv7Wfpo=
+		ICwnoL4+h1u5b1XuKmK6MToZr6k=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YHBGPQS4CHajlrVBOGLMAp28xMY=
+		+/b1jzkHUrODjwL8WdZ15cdVPoo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P+UgjsyR0+UidLxSXXDWYT6y17v5a6noM1n8MzhN7iY=
+			lpts3l6hZtjwpeXv1sOmYW/P8lhxgYUKf+tf/K8qUBU=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdntP9UfRVEGI75nI2XqUF41ZTvFB1dZGoUBWAgsfQw=
+			wgdnJbaJhci/olZsz9TJyRR4yCuU9kClNdPcSsaPQpA=
 			</data>
 		</dict>
 		<key>Config.plist</key>
@@ -150,7 +150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I9UR08S41vsCl2iMxeSkITNP1okMdauNZ5bndKA5RU0=
+			P07gXWFWYP3ckAxS49e+O7Cg4lcNekWlUAQjNBGfgxg=
 			</data>
 		</dict>
 		<key>FullScreenVideoViewController.nib</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bYikXGkXeIyStNQJBgWvgNJZTt7lLPgM86ROcTKQ9II=
+			MLLcvQIhQchIeAgK/km3ydSYFtzuXFrTGW0/YMHuqzI=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PqRMmwJCltTj62OBfbHGmd2+jeA7cpLCbA85k0TFJx4=
+			NbYQp0Rx9aIgrPOWZNIUqEJDC5ufT4ETPGkOEX9tvC8=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefUNUserNotificationCenter.h</key>
@@ -234,35 +234,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YWZaBYjKisBImsUUs8f0jd5QOnmCQp7dIp00781K284=
+			dSAk4lcNA5kvZZyJTjWZC1sz19hrOKfMxkT6i3gl0TE=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaB/1cNCsCoXhO6hJWC6/gGu87v/U6nDnjQnQCBnYUY=
+			iv//UyF1BEL9c3q0V0hALjC8TH4hTkJtcZFRC1QjH00=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z9iNG1uCdJqjC6ANibDK5gE6zf3HN1sF/QJayav7feo=
+			iiU/2Af2QHo/sf/GyT5ihuFE+dNn3H5X9ho3RKqK4do=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaB/1cNCsCoXhO6hJWC6/gGu87v/U6nDnjQnQCBnYUY=
+			iv//UyF1BEL9c3q0V0hALjC8TH4hTkJtcZFRC1QjH00=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YQLpJD5OUQ/75JeRzDj5UwEr6EHoaZGHkMXRZN7NOK0=
+			O/QjcEDBdzcYUuCmon90NGSrZz4ETY47ZV5m1Uz3s8s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DigitalReefSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -26,13 +26,14 @@ import os
 import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DigitalReef : ObjectiveC.NSObject {
   @objc public static let shared: DigitalReefSDK.DigitalReef
-  public var flutterDelegate: DigitalReefSDK.FlutterDelegate? {
+  @objc public var deepLinkDelegate: (any DigitalReefSDK.DeepLinkDelegate)?
+  public var flutterDelegate: (any DigitalReefSDK.FlutterDelegate)? {
     get
     set
   }
   @objc public static func includeMediaAttachment(request: UserNotifications.UNNotificationRequest, mutableContent: UserNotifications.UNMutableNotificationContent, contentHandler: @escaping ((UserNotifications.UNNotificationContent) -> Swift.Void))
-  @objc public func addOTAObserver(_ otaObserver: DigitalReefSDK.OTAObserver)
-  @objc public func removeOTAObserver(_ otaObserver: DigitalReefSDK.OTAObserver)
+  @objc public func addOTAObserver(_ otaObserver: any DigitalReefSDK.OTAObserver)
+  @objc public func removeOTAObserver(_ otaObserver: any DigitalReefSDK.OTAObserver)
   @objc public func notifySDKForOTAEventPerformedInHostApp(otaPromotionId: Swift.String, otaEvent: DigitalReefSDK.OTAEvent)
   @objc public static func requestPushPermission()
   @objc public static func sendEvent(name: Swift.String)
@@ -49,10 +50,15 @@ import zlib
   @objc public func didReceiveRemoteNotification(application: UIKit.UIApplication, userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
   @objc public func didReceiveNotificationResponse(center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
   @objc public func willPresentNotification(center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc public func readOTAPromotions() -> [DigitalReefSDK.OTAPromotion]
+  @objc public func saveOTAPromotionToDB(otaPromotion: DigitalReefSDK.OTAPromotion)
   @objc deinit
 }
 public protocol FlutterDelegate {
   func disableFlutterView(_ value: Swift.Bool)
+}
+@objc public protocol DeepLinkDelegate {
+  @objc func handleDeepLinks(_ link: Foundation.URL, open: (() -> Swift.Void)?)
 }
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class InAPPUIButton : UIKit.UIButton {
   @_Concurrency.MainActor(unsafe) public var inAppContent: DigitalReefSDK.InAppContent?
@@ -150,11 +156,9 @@ extension Foundation.Data {
 }
 public typealias InAppMessageData = [Swift.AnyHashable : Any]
 @objc final public class LocalInAppMessage : ObjectiveC.NSObject {
-  final public var messageShownComplete: Swift.Bool
-  final public var dismissMessage: ((Swift.Bool) -> Swift.Void)?
   public init(_ data: DigitalReefSDK.InAppMessageData)
   public init(_ model: DigitalReefSDK.DRInAppModel)
-  final public func show(_ completion: (() -> Swift.Void)?)
+  final public func show(window: UIKit.UIWindow?, _ completion: (() -> Swift.Void)?)
   final public func closeEngagementAd()
   @objc deinit
 }
@@ -169,12 +173,12 @@ public typealias InAppMessageData = [Swift.AnyHashable : Any]
   @objc deinit
 }
 public struct Ad : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InAppContent : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class DRNotificationHandler : ObjectiveC.NSObject {
   @objc public static let shared: DigitalReefSDK.DRNotificationHandler
@@ -234,7 +238,6 @@ extension Foundation.NSNotification.Name {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @available(iOS 5.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
@@ -265,6 +268,7 @@ extension Foundation.NSNotification.Name {
   @objc @_Concurrency.MainActor(unsafe) public var videoEnded: Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) public var videoFormatFullOrPartial: Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) public var avAsset: AVFoundation.AVAsset?
+  @objc @_Concurrency.MainActor(unsafe) public var mainWindow: UIKit.UIWindow?
   @objc @_Concurrency.MainActor(unsafe) final public let activityIndicatorView: UIKit.UIActivityIndicatorView
   @objc @_Concurrency.MainActor(unsafe) final public let currentTimeLabel: UIKit.UILabel
   @objc @_Concurrency.MainActor(unsafe) final public let videoLengthLabel: UIKit.UILabel
@@ -274,6 +278,7 @@ extension Foundation.NSNotification.Name {
   @objc @_Concurrency.MainActor(unsafe) public func setSoundIcon()
   @objc @_Concurrency.MainActor(unsafe) public func setMuteIcon()
   @objc @_Concurrency.MainActor(unsafe) public var isMuted: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(mainWindow: UIKit.UIWindow, frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc @_Concurrency.MainActor(unsafe) public func setVolumeIcon()
@@ -329,8 +334,8 @@ extension UIKit.UIImage {
   @objc public var startedAt: Swift.Int
   @objc public var finalizedAt: Swift.Int
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class OtaNotification : ObjectiveC.NSObject, Swift.Codable {
   @objc public var contentTitle: Swift.String
@@ -339,8 +344,8 @@ extension UIKit.UIImage {
   @objc public var icon: Swift.String
   @objc public var bigImage: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 extension DigitalReefSDK.OTAEvent : Swift.Equatable {}
 extension DigitalReefSDK.OTAEvent : Swift.Hashable {}

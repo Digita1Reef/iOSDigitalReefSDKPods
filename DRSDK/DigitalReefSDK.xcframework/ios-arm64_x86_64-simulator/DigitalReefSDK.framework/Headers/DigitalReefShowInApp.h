@@ -7,7 +7,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DigitalReefShowInApp : UIView
 
-@property (nonatomic, copy) void (^dismissMessage)(BOOL);
 @property (strong, nonatomic) IBOutlet UIView *alertView;
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImageView;
 @property (strong, nonatomic) IBOutlet UIStackView *fsInAppCenterContent;
@@ -29,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) NSString *bannerType;
 
-- (instancetype)initWithContent:(DRInAppModel*) content completionHandler:(void (^)(BOOL success)) handler;
+- (instancetype)initWithContent:(DRInAppModel*) content window:(UIWindow*) mainWindow completionHandler:(void (^)(BOOL success)) handler;
 + (void) setUpComponentWithContent:(NSArray<NSDictionary*>* ) jsonElement andView:(UIStackView*) view andInstance:(DigitalReefShowInApp*) instance;
 - (void)showAlert;
 - (instancetype)init;

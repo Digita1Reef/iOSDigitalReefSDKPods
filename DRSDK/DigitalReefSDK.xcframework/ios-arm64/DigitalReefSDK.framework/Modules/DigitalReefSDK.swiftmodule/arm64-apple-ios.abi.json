@@ -14636,7 +14636,7 @@
       "kind": "StringLiteral",
       "offset": 1604,
       "length": 8,
-      "value": "\"4.15.4\""
+      "value": "\"4.16.0\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",

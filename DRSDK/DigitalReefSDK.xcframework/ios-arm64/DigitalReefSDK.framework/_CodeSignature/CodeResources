@@ -74,11 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sHerIqJdA2zbitE1XmFutH5o67o=
+		L1YPsD1h5HFeUkYcBaZiicLxpRs=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BBF/JytYOeDyshyqVxcAQSerNGQ=
+		auLMoTVBZ3O0fNeHz5g+FuHufwM=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+/b1jzkHUrODjwL8WdZ15cdVPoo=
+		mkhaTYZyyrbs7+rNr2QpyPx6gbU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -234,7 +234,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dSAk4lcNA5kvZZyJTjWZC1sz19hrOKfMxkT6i3gl0TE=
+			XjFAT0b3jO0t3K2do9gL6ctovXXfLHJsRyXo7KArj1M=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -262,7 +262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/QjcEDBdzcYUuCmon90NGSrZz4ETY47ZV5m1Uz3s8s=
+			8MZrHikOKcrk257D3mpnGaE602ly5VAgpl8FadDGhUg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

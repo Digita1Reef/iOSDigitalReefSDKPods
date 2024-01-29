@@ -1,7 +1,7 @@
 framework module DigitalReefSDK {
   umbrella header "DigitalReefSDK.h"
-
   export *
+
   module * { export * }
 }
 

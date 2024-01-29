@@ -1,7 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DigitalReefSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
 import AVKit
 import AdSupport
 import AppTrackingTransparency
@@ -9,6 +10,7 @@ import AuthenticationServices
 import BackgroundTasks
 import CoreMedia
 import CoreTelephony
+import DeveloperToolsSupport
 @_exported import DigitalReefSDK
 import Foundation
 import Foundation/*.Data*/
@@ -16,12 +18,14 @@ import ImageIO
 import Network
 import StoreKit
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os
 import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DigitalReef : ObjectiveC.NSObject {
@@ -60,6 +64,14 @@ public protocol FlutterDelegate {
 @objc public protocol DeepLinkDelegate {
   @objc func handleDeepLinks(_ link: Foundation.URL, open: (() -> Swift.Void)?)
 }
+public protocol DebugProtocol : ObjectiveC.NSObject {
+  func fetchClientID() -> Swift.String
+  func deviceData() -> Swift.String
+}
+extension DigitalReefSDK.DebugProtocol {
+  public func fetchClientID() -> Swift.String
+  public func deviceData() -> Swift.String
+}
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class InAPPUIButton : UIKit.UIButton {
   @_Concurrency.MainActor(unsafe) public var inAppContent: DigitalReefSDK.InAppContent?
   @objc @_Concurrency.MainActor(unsafe) public var deeplink: Swift.String?
@@ -94,6 +106,9 @@ public protocol FlutterDelegate {
   @objc public func countMessagesViewedInThisSessionByCategory(category: Swift.String, sessionId: Swift.String) -> Swift.Int32
   @objc public func countMessagesViewedInThisSessionByMessage(messageId: Swift.String, sessionId: Swift.String) -> Swift.Int32
   @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class DRInAppHelper : ObjectiveC.NSObject {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class AdAnalyticsManager : ObjectiveC.NSObject {
@@ -228,6 +243,7 @@ extension Foundation.NSNotification.Name {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class CustomNav : UIKit.UINavigationController {
+  @objc @_Concurrency.MainActor(unsafe) public var viewWasLoaded: (() -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
     @objc get
@@ -304,6 +320,19 @@ extension UIKit.UIImage {
   @available(iOS 9.0, *)
   public class func gif(asset: Swift.String) -> (UIKit.UIImage?, Foundation.TimeInterval)
 }
+@objc @_inheritsConvenienceInitializers @objcMembers public class DRInAppModel : ObjectiveC.NSObject {
+  @objc public var type: Swift.String
+  @objc public var backgroundURL: Swift.String
+  @objc public var backgroundColor: Swift.String
+  @objc public var themeColor: Swift.String
+  @objc public var closeButtonPosition: Swift.String
+  @objc public var adId: Swift.String
+  @objc public var campaignId: Swift.String
+  @objc public var ctaActionType: Swift.String
+  @objc public var inAppContent: [Foundation.NSDictionary]
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class Reachability {
   public static func isConnected() -> Swift.Bool
   @objc deinit
@@ -346,6 +375,10 @@ extension UIKit.UIImage {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+extension UIKit.UIColor {
+  @objc convenience dynamic public init?(hex_ARGB: Swift.String)
+  @objc convenience dynamic public init?(hex_RGBA: Swift.String)
 }
 extension DigitalReefSDK.OTAEvent : Swift.Equatable {}
 extension DigitalReefSDK.OTAEvent : Swift.Hashable {}

@@ -6,67 +6,39 @@
 	<dict>
 		<key>AdLoader.nib</key>
 		<data>
-		IqL/QAiPeSwDcUfDr9xFKmlJ0Us=
+		PkqbWlNW0ry/k6rzWvhGLgNHEmU=
 		</data>
 		<key>AdsBaseViewController.nib/objects-14.0+.nib</key>
 		<data>
-		LLxKXNEttdtH3Eh/2qiT7dIa7sU=
+		dl1Id0eP5Q0AhO06KfU9qDx7PHU=
 		</data>
 		<key>AdsBaseViewController.nib/runtime.nib</key>
 		<data>
-		QMH8mhDUXso2qfRb79po/y/6zU8=
+		/deMHs0VgkROoeJCLjPHOzC5NHU=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		tKK2x/N4gGY8nBKEDG4JYpd3DcQ=
+		nTqIM5Mc+duPdO6R//Zfky8VZzE=
 		</data>
 		<key>Config.plist</key>
 		<data>
 		jYoCeU6dkNiXSeF8rzAj1hxUKwY=
 		</data>
-		<key>DigitalReefShowInApp.nib</key>
-		<data>
-		q5DFL0tq0ty6pCL6i2VDxOasJDk=
-		</data>
 		<key>FullScreenVideoViewController.nib</key>
 		<data>
-		uumcJ5hwy7nIv7XwqS0EUUDJt04=
-		</data>
-		<key>Headers/DRInAppHelper.h</key>
-		<data>
-		5GdRpF+pQ/GrkgCZgD57XTfevQg=
-		</data>
-		<key>Headers/DRInAppModel.h</key>
-		<data>
-		SLmWejybVH/1RkGjQuSgBjDiTz0=
-		</data>
-		<key>Headers/DigitalReefPassthroughView.h</key>
-		<data>
-		oHnFsKoIEPKlxb1aN+5Rf5i8Tbw=
+		V/lDbGvJpgHx2sRyeGwlS7r+7EU=
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		gf5+HRc95BHV6ldumtI74XlTs9U=
+		8loOxDcCYS7TRnKNCx2ObqSPMkM=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
-		g0DWUWqhkNfuON1d7JJzPB1pr9Q=
-		</data>
-		<key>Headers/DigitalReefShowInApp.h</key>
-		<data>
-		oFHZqjpKQtLxGR16elFEh8CNUZI=
+		LmkzBZAa6pBPyHzI/pqNThlgsJo=
 		</data>
 		<key>Headers/DigitalReefUNUserNotificationCenter.h</key>
 		<data>
 		XcRyPLdhbgTTstfNcYZPh0htepU=
-		</data>
-		<key>Headers/InAppContent.h</key>
-		<data>
-		lokJ9RhzSCospoCTU0bJhQgPwJQ=
-		</data>
-		<key>Headers/InAppMessage.h</key>
-		<data>
-		t8ZpZ17OiFjIEc9hZVwCfs9Ud9I=
 		</data>
 		<key>Headers/PushNotificationDR.h</key>
 		<data>
@@ -74,39 +46,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L1YPsD1h5HFeUkYcBaZiicLxpRs=
+		68BDmUQknFWcRX38uPIurGX8+Gk=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		auLMoTVBZ3O0fNeHz5g+FuHufwM=
+		KV5mrm19IwNjD/+6Iq6/G7I+a/c=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ICwnoL4+h1u5b1XuKmK6MToZr6k=
+		yAazEMBkkZ7+6U9I1pneGlalLUo=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		LdFmmsPwPC2F4OHDIL8RlWCAck8=
+		hFSGJRf8LBZp+xgIJunc+u7OIws=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ICwnoL4+h1u5b1XuKmK6MToZr6k=
+		yAazEMBkkZ7+6U9I1pneGlalLUo=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mkhaTYZyyrbs7+rNr2QpyPx6gbU=
+		Ruo+QLQuU09a8I7yc/tCwQFSMMQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		6nz2xp63ZwVuZiuyoBpdBcrnY14=
+		9DlfZuo/nM8M/LY0N1FGyyDaUvQ=
 		</data>
 		<key>PushRewardsVC.nib</key>
 		<data>
-		RLJHAzX0KIxEZi/e5r34OuMeFQU=
+		5C56NsXQJsEdZUiNTdfcGfK0Esw=
 		</data>
 		<key>UIVideoView.nib</key>
 		<data>
-		2xu4+lualwY0bHpulPEuXXoV/vM=
+		sVCuscV+XN/KZsnBBgjoBzPaDvM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,28 +87,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rqxBIiQyIljH4VaJ0FUHQoOyQuDasCU1hhhYFgwxeBs=
+			HxyfM1hwniJDwFygxpxtVxodn61SShY0Yayegdhi68w=
 			</data>
 		</dict>
 		<key>AdsBaseViewController.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tog5tC2pq8lBw1Z/PrOoW64XP8qousqk1TzsD8tAxqw=
+			/aPFn9po1PU1UfD6aJ6wigH9blO7OSaHDl8Wlzsl6B0=
 			</data>
 		</dict>
 		<key>AdsBaseViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lpts3l6hZtjwpeXv1sOmYW/P8lhxgYUKf+tf/K8qUBU=
+			loTkNalhMF64Ol989O1zk4439dmBANU9U2ofFzt+wmk=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wgdnJbaJhci/olZsz9TJyRR4yCuU9kClNdPcSsaPQpA=
+			Oe72Cbrt2Sf5krJuTfLzhTLNeYMCiWjepXx9vJCmyXA=
 			</data>
 		</dict>
 		<key>Config.plist</key>
@@ -146,60 +118,25 @@
 			4AWrS93+T1b+3Y1df+KzzitjeYLceDVESnmpp801Xgs=
 			</data>
 		</dict>
-		<key>DigitalReefShowInApp.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			P07gXWFWYP3ckAxS49e+O7Cg4lcNekWlUAQjNBGfgxg=
-			</data>
-		</dict>
 		<key>FullScreenVideoViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R71gAHdJt2B2aNvk0wQZT7HvZMDp+BGSKHRMjsTRXcg=
-			</data>
-		</dict>
-		<key>Headers/DRInAppHelper.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o91NKOk4LkYwt+K/zlo5zMuqsDCprirIeKmfvB4fe4I=
-			</data>
-		</dict>
-		<key>Headers/DRInAppModel.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2YmlERZaYs/+qMbpp97t5aDJV049zihHHxLlfOJNVsA=
-			</data>
-		</dict>
-		<key>Headers/DigitalReefPassthroughView.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vvW+tq1qtHAhBBwijtqvmL8IOfUAzvlj/W8rp0s52vc=
+			6v68hqAPJJ225k8+6iARqHMuihAN3smYyfwaNPb47JU=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MLLcvQIhQchIeAgK/km3ydSYFtzuXFrTGW0/YMHuqzI=
+			Zlf67/+qo018ptayVTzcrurgO750Xk3SAIFK1wbiG64=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l8WdIj1XHNyQtcAMBmg2ZTKCPcN6PvsFARZR6IeSqv4=
-			</data>
-		</dict>
-		<key>Headers/DigitalReefShowInApp.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NbYQp0Rx9aIgrPOWZNIUqEJDC5ufT4ETPGkOEX9tvC8=
+			PRcIwPoMpbSWnnir2SAjia7zubMZqUwZIq0F90M1J2A=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefUNUserNotificationCenter.h</key>
@@ -207,20 +144,6 @@
 			<key>hash2</key>
 			<data>
 			gt5acy9tTtwJDXwnD1zK632MAxg8nQ9PHOqb/Lt8SpI=
-			</data>
-		</dict>
-		<key>Headers/InAppContent.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Qwm1GzUNRgxv/qf34v0wdJdapEQFs5rkEdqPG33YjDc=
-			</data>
-		</dict>
-		<key>Headers/InAppMessage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AFaRHqgLagr3Jds3hktVWyVbM8mfdnwzR1BIphxZPgg=
 			</data>
 		</dict>
 		<key>Headers/PushNotificationDR.h</key>
@@ -234,56 +157,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XjFAT0b3jO0t3K2do9gL6ctovXXfLHJsRyXo7KArj1M=
+			8C1k6vAT56Gt8Uh1ziy0EyD1qzqlJ136r+EqZ70dn4g=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iv//UyF1BEL9c3q0V0hALjC8TH4hTkJtcZFRC1QjH00=
+			I4VOkZoeOJ5NXAWBva3GjjAKjSFfVfx5PRLZY110Suo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iiU/2Af2QHo/sf/GyT5ihuFE+dNn3H5X9ho3RKqK4do=
+			NRI9PtKNzov7M6aMHillUF3J1zCyE2ANIX62TDlKY6o=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iv//UyF1BEL9c3q0V0hALjC8TH4hTkJtcZFRC1QjH00=
+			I4VOkZoeOJ5NXAWBva3GjjAKjSFfVfx5PRLZY110Suo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8MZrHikOKcrk257D3mpnGaE602ly5VAgpl8FadDGhUg=
+			QR++MlfW7zd9wbnGV2oppj/orX3/4u/JDR989+Y7K8Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ZhVrtlhWnAFe/EuompmmJmcJpCkxO4sMmo8eTO2m08=
+			YI9A/SFIqlCnSCfq6cyP+Q6eV7F9rKzlUT8fAyrFW+g=
 			</data>
 		</dict>
 		<key>PushRewardsVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5SE2rrqqGBxqtARVcW0IqBxV16bJ5Qto3JJLosaSR+o=
+			XYcDfQ5UqNmRf90oBbesRlMCX5aHLr46SQdr6XbsM50=
 			</data>
 		</dict>
 		<key>UIVideoView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1QYdpi6pkEUiLerchsXsjbh7XnBUiOvwD4KQsPhHGRk=
+			RvznUMiMv2WpJN69KkpWwWFKRpe91tCMVAHI28jswHg=
 			</data>
 		</dict>
 	</dict>

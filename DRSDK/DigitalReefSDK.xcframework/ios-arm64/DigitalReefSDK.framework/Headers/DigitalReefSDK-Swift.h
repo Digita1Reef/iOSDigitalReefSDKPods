@@ -415,7 +415,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 - (void)willPresentNotification:(UNNotification * _Nonnull)notification;
 - (void)didReceiveRemoteNotification:(NSDictionary * _Nonnull)info;
 - (void)didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response;
-- (void)alertReceived:(NSDictionary * _Nonnull)info adId:(NSString * _Nonnull)adId;
+- (void)alertReceived:(NSDictionary * _Nonnull)info adId:(NSString * _Nonnull)adId completion:(void (^ _Nullable)(void))completion;
 @end
 
 @class NSURL;

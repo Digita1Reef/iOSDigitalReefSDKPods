@@ -6,9 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DigitalReefSDK/PushNotificationDR.h>
-#import <DigitalReefSDK/DigitalReefUNUserNotificationCenter.h>
-
+#import <UIKit/UIKit.h>
 //! Project version number for DigitalReefSDK.
 FOUNDATION_EXPORT double DigitalReefSDKVersionNumber;
 

@@ -30,63 +30,63 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		Ot5Jd6LVRu8OcKqknae79EPKhIc=
+		2IyO6TNZXLNdXRAo3dgC47oClPI=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
-		LmkzBZAa6pBPyHzI/pqNThlgsJo=
-		</data>
-		<key>Headers/DigitalReefUNUserNotificationCenter.h</key>
-		<data>
-		XcRyPLdhbgTTstfNcYZPh0htepU=
-		</data>
-		<key>Headers/PushNotificationDR.h</key>
-		<data>
-		Ir7vUuMA1Jye/7bv2cfvks2hM+Q=
+		MggazLvRfL5BXVtV6B9dY2xrFDQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zJNXzXfl558fNXo2uiy9hN46oe8=
+		idoy45CIID3J0JKvgXePCcHvgAo=
+		</data>
+		<key>LocationDR.momd/LocationDR.mom</key>
+		<data>
+		l1IglCNwKww1wV+2SGxUCc49xWs=
+		</data>
+		<key>LocationDR.momd/VersionInfo.plist</key>
+		<data>
+		3aNGxPVIRztNRxThRnjjI3m3o0M=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yDLJJsRNi1xTPixN5wfGxI3hcfI=
+		9Iu+b+8ocuzbislPDxyOTEFGmaw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2M5IbIFZrKDssbQTxw7b54JGjOQ=
+		EsOEninrz/XekoA79EEKqxZNEY4=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MQ2DdfTxQChkNXo8q8YKk7lw1OQ=
+		Dm7k0YQigNW9Al3MlHQHZcy73qM=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2M5IbIFZrKDssbQTxw7b54JGjOQ=
+		EsOEninrz/XekoA79EEKqxZNEY4=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e93LERmWYCQl0WeFK31mnHPKjDg=
+		/o77dGI02pNdsXxTIfPdm18SPnM=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yDLJJsRNi1xTPixN5wfGxI3hcfI=
+		9Iu+b+8ocuzbislPDxyOTEFGmaw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PLivOyysX1YJ9hJ7W8aXszjziFU=
+		UB6F4nCJT4wM4+bFnf+UCqyWagw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9CnaSfIkdH/vwnuBH5DEwUSmu/k=
+		g9IeCt72T7AakcgZXo9ctTnONVk=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PLivOyysX1YJ9hJ7W8aXszjziFU=
+		UB6F4nCJT4wM4+bFnf+UCqyWagw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oZSIS1AH8gWFeyvUixa34uUbUoA=
+		EsHnIeaB+OIY94HKcXYC3+ZG62A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -153,98 +153,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x0MDmz5G1Ht4o7rK/jK+czy4CSsTESzAGkpxMo0hgz8=
+			O+/dxDVv57gWnRvuwFRehv13Y3/exwIqOgfBldVHNbM=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PRcIwPoMpbSWnnir2SAjia7zubMZqUwZIq0F90M1J2A=
+			4gnjikzrYBcqOvN3Dv03gSyx0MbKIJ6TuZeifUNmVpo=
 			</data>
 		</dict>
-		<key>Headers/DigitalReefUNUserNotificationCenter.h</key>
+		<key>LocationDR.momd/LocationDR.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gt5acy9tTtwJDXwnD1zK632MAxg8nQ9PHOqb/Lt8SpI=
+			O2SydiUPZZAXcRIS3k/9tuLGg+UfDYio3sYrG/LHFug=
 			</data>
 		</dict>
-		<key>Headers/PushNotificationDR.h</key>
+		<key>LocationDR.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			metpazfy3nchaHj9RwToRsEWgctHSuSBnSiNdoClWD8=
+			4bWPKIzURfs2LlvTL+5eoHHUo2qJu83is0zHCvoWUpI=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZvnHbmtgFKfDTrZw0gSyOrHuA+W3OH61VhU2pfwaciM=
+			9b8jmBDxvCuG4Jx8LpzK8b0ELuNmM0dV5x3IgQ+anu0=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			POrTIgfsRx2jo/CM9wHwSXlcoc5rI+IjkbrfKNj0C4c=
+			k1xpRNgHawdVD3KZOo1sTBq7W8dIZbA5K7/8rq28S84=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n285661xMv3eZ9zsHkFdwfG8ggs7YoiILBu37rXpsCk=
+			yw9AJW2FX4Pn2yrZLPuK2sUBIkPOuu5gdFrcuvjY4Ng=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			POrTIgfsRx2jo/CM9wHwSXlcoc5rI+IjkbrfKNj0C4c=
+			k1xpRNgHawdVD3KZOo1sTBq7W8dIZbA5K7/8rq28S84=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BKmdtLVZAYPEDBQ9xGBZTd5c4Y0+SIWz5urkTnSUc+M=
+			8P+3umcArFe9lAJiCGl3iC8JxsedM77bgV6tDGP2cLo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZvnHbmtgFKfDTrZw0gSyOrHuA+W3OH61VhU2pfwaciM=
+			9b8jmBDxvCuG4Jx8LpzK8b0ELuNmM0dV5x3IgQ+anu0=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhszDw34QHUsBqS1gb2qqJRyhw93HyKiFVtXyUkHcMU=
+			mi6Up+byZnAnJ6g0PFispK99CNFHVMR11Bq4vT7UGPo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hYSVfLngwZ7BN1pazsP7fLspUR1U6UU/NZX+mdWApg=
+			b84yiso6xvru6Vb7442GQGEe+XZDZehAX4J0qRIuKMg=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhszDw34QHUsBqS1gb2qqJRyhw93HyKiFVtXyUkHcMU=
+			mi6Up+byZnAnJ6g0PFispK99CNFHVMR11Bq4vT7UGPo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			02Ki+aZ/Yp6ZvZtPdC3NLE8LslqnYZdh93AGtRZpwqY=
+			LKPMDkxDihG0YEEIVSSJ+zLBiXRPRA654vE/6Ex1Isk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

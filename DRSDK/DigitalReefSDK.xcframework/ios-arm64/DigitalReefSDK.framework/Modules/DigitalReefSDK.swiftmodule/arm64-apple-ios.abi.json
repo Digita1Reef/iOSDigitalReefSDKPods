@@ -16,6 +16,30 @@
       },
       {
         "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -45,13 +69,20 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
         "kind": "Import",
         "name": "AppTrackingTransparency",
         "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK"
       },
@@ -231,111 +262,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "flutterDelegate",
-            "printedName": "flutterDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any DigitalReefSDK.FlutterDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FlutterDelegate",
-                    "printedName": "any DigitalReefSDK.FlutterDelegate",
-                    "usr": "s:14DigitalReefSDK15FlutterDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvp",
-            "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvp",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any DigitalReefSDK.FlutterDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FlutterDelegate",
-                        "printedName": "any DigitalReefSDK.FlutterDelegate",
-                        "usr": "s:14DigitalReefSDK15FlutterDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvg",
-                "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvg",
-                "moduleName": "DigitalReefSDK",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any DigitalReefSDK.FlutterDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FlutterDelegate",
-                        "printedName": "any DigitalReefSDK.FlutterDelegate",
-                        "usr": "s:14DigitalReefSDK15FlutterDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvs",
-                "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvs",
-                "moduleName": "DigitalReefSDK",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvM",
-                "mangledName": "$s14DigitalReefSDK0aB0C15flutterDelegateAA07FlutterE0_pSgvM",
-                "moduleName": "DigitalReefSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "includeMediaAttachment",
             "printedName": "includeMediaAttachment(request:mutableContent:contentHandler:)",
@@ -490,12 +416,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)DigitalReef(cm)requestPushPermission",
-            "mangledName": "$s14DigitalReefSDK0aB0C21requestPushPermissionyyFZ",
+            "usr": "c:@M@DigitalReefSDK@objc(cs)DigitalReef(im)requestPushPermission",
+            "mangledName": "$s14DigitalReefSDK0aB0C21requestPushPermissionyyF",
             "moduleName": "DigitalReefSDK",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -1041,6 +965,127 @@
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLocation",
+            "printedName": "startLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)DigitalReef(im)startLocation",
+            "mangledName": "$s14DigitalReefSDK0aB0C13startLocationyyF",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateLocation",
+            "printedName": "updateLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)DigitalReef(im)updateLocation",
+            "mangledName": "$s14DigitalReefSDK0aB0C14updateLocationyyF",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLocation",
+            "printedName": "stopLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)DigitalReef(im)stopLocation",
+            "mangledName": "$s14DigitalReefSDK0aB0C12stopLocationyyF",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isLocationServiceEnable",
+            "printedName": "isLocationServiceEnable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)DigitalReef(py)isLocationServiceEnable",
+            "mangledName": "$s14DigitalReefSDK0aB0C23isLocationServiceEnableSbvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)DigitalReef(im)isLocationServiceEnable",
+                "mangledName": "$s14DigitalReefSDK0aB0C23isLocationServiceEnableSbvg",
+                "moduleName": "DigitalReefSDK",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -1059,6 +1104,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DebugProtocol",
+            "printedName": "DebugProtocol",
+            "usr": "s:14DigitalReefSDK13DebugProtocolP",
+            "mangledName": "$s14DigitalReefSDK13DebugProtocolP"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -1121,63 +1173,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FlutterDelegate",
-        "printedName": "FlutterDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "disableFlutterView",
-            "printedName": "disableFlutterView(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14DigitalReefSDK15FlutterDelegateP07disableD4ViewyySbF",
-            "mangledName": "$s14DigitalReefSDK15FlutterDelegateP07disableD4ViewyySbF",
-            "moduleName": "DigitalReefSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : DigitalReefSDK.FlutterDelegate>",
-            "sugared_genericSig": "<Self where Self : DigitalReefSDK.FlutterDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:14DigitalReefSDK15FlutterDelegateP",
-        "mangledName": "$s14DigitalReefSDK15FlutterDelegateP",
-        "moduleName": "DigitalReefSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -1365,6 +1360,30 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateDebugVersion",
+            "printedName": "validateDebugVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DigitalReefSDK13DebugProtocolPAAE08validateD7VersionSbyF",
+            "mangledName": "$s14DigitalReefSDK13DebugProtocolPAAE08validateD7VersionSbyF",
+            "moduleName": "DigitalReefSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DigitalReefSDK.DebugProtocol>",
+            "sugared_genericSig": "<Self where Self : DigitalReefSDK.DebugProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -1391,6 +1410,16 @@
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -2342,7 +2371,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly",
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -2383,7 +2412,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -2413,7 +2442,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly",
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -2505,140 +2534,6 @@
           },
           {
             "kind": "Function",
-            "name": "saveHistory",
-            "printedName": "saveHistory(_:sessionId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DRInAppModel",
-                "printedName": "DigitalReefSDK.DRInAppModel",
-                "usr": "c:@M@DigitalReefSDK@objc(cs)DRInAppModel"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)saveHistory:sessionId:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC11saveHistory_9sessionIdyAA04DRInE5ModelC_SStF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeMessage",
-            "printedName": "removeMessage(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)removeMessage:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC06removeF0yySSF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeStaleMessages",
-            "printedName": "removeStaleMessages()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)removeStaleMessages",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC19removeStaleMessagesyyF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeStaleHistory",
-            "printedName": "removeStaleHistory()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)removeStaleHistory",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC18removeStaleHistoryyyF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getAll",
-            "printedName": "getAll()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DigitalReefSDK.DRInAppModel]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DRInAppModel",
-                    "printedName": "DigitalReefSDK.DRInAppModel",
-                    "usr": "c:@M@DigitalReefSDK@objc(cs)DRInAppModel"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)getAll",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC6getAllSayAA04DRInE5ModelCGyF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "getLaunchInAppMessages",
             "printedName": "getLaunchInAppMessages()",
             "children": [
@@ -2663,7 +2558,8 @@
             "moduleName": "DigitalReefSDK",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2759,237 +2655,6 @@
             "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)updateAdShown:",
             "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC13updateAdShownySbSSF",
             "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getInAppMessagesFromInAppEvent",
-            "printedName": "getInAppMessagesFromInAppEvent(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DigitalReefSDK.DRInAppModel]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DRInAppModel",
-                    "printedName": "DigitalReefSDK.DRInAppModel",
-                    "usr": "c:@M@DigitalReefSDK@objc(cs)DRInAppModel"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)getInAppMessagesFromInAppEvent:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC03getde12MessagesFromdE5EventySayAA04DRInE5ModelCGSSF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "countMessagesViewedHistorically",
-            "printedName": "countMessagesViewedHistorically(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)countMessagesViewedHistorically:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC31countMessagesViewedHistoricallyys5Int32VSiF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "countMessagesViewedHistoricallyByMessageWithId",
-            "printedName": "countMessagesViewedHistoricallyByMessageWithId(_:timeDelta:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)countMessagesViewedHistoricallyByMessageWithId:timeDelta:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC033countMessagesViewedHistoricallyByF6WithId_9timeDeltas5Int32VSS_SitF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "countMessagesViewedHistoricallyByCategory",
-            "printedName": "countMessagesViewedHistoricallyByCategory(_:timeDelta:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)countMessagesViewedHistoricallyByCategory:timeDelta:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC41countMessagesViewedHistoricallyByCategory_9timeDeltas5Int32VSS_SitF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "countMessagesViewedInThisSession",
-            "printedName": "countMessagesViewedInThisSession(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)countMessagesViewedInThisSession:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC019countMessagesViewedD11ThisSessionys5Int32VSSF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "countMessagesViewedInThisSessionByCategory",
-            "printedName": "countMessagesViewedInThisSessionByCategory(category:sessionId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)countMessagesViewedInThisSessionByCategoryWithCategory:sessionId:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC019countMessagesViewedD21ThisSessionByCategory8category9sessionIds5Int32VSS_SStF",
-            "moduleName": "DigitalReefSDK",
-            "objc_name": "countMessagesViewedInThisSessionByCategoryWithCategory:sessionId:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "countMessagesViewedInThisSessionByMessage",
-            "printedName": "countMessagesViewedInThisSessionByMessage(messageId:sessionId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)InAppMessageService(im)countMessagesViewedInThisSessionByMessageWithMessageId:sessionId:",
-            "mangledName": "$s14DigitalReefSDK19InAppMessageServiceC019countMessagesViewedd13ThisSessionByF09messageId07sessionO0s5Int32VSS_SStF",
-            "moduleName": "DigitalReefSDK",
-            "objc_name": "countMessagesViewedInThisSessionByMessageWithMessageId:sessionId:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -3124,8 +2789,28 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
@@ -3265,12 +2950,36 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "RealmSwift",
         "printedName": "RealmSwift",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -3846,7 +3555,17 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -3876,7 +3595,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -5184,46 +4903,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.AnyHashable : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14DigitalReefSDK17LocalInAppMessageCyACSDys11AnyHashableVypGcfc",
-            "mangledName": "$s14DigitalReefSDK17LocalInAppMessageCyACSDys11AnyHashableVypGcfc",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LocalInAppMessage",
-                "printedName": "DigitalReefSDK.LocalInAppMessage",
-                "usr": "c:@M@DigitalReefSDK@objc(cs)LocalInAppMessage"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "DRInAppModel",
                 "printedName": "DigitalReefSDK.DRInAppModel",
                 "usr": "c:@M@DigitalReefSDK@objc(cs)DRInAppModel"
@@ -5436,6 +5115,37 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AdEvents",
         "printedName": "AdEvents",
@@ -5602,12 +5312,49 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "RealmSwift",
         "printedName": "RealmSwift",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -5936,104 +5683,19 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "InAppContent",
-        "printedName": "InAppContent",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "InAppContent",
-                "printedName": "DigitalReefSDK.InAppContent",
-                "usr": "s:14DigitalReefSDK12InAppContentV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14DigitalReefSDK12InAppContentV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s14DigitalReefSDK12InAppContentV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "DigitalReefSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14DigitalReefSDK12InAppContentV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s14DigitalReefSDK12InAppContentV6encode2toys7Encoder_p_tKF",
-            "moduleName": "DigitalReefSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:14DigitalReefSDK12InAppContentV",
-        "mangledName": "$s14DigitalReefSDK12InAppContentV",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
+          "RawDocComment"
         ]
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
@@ -6094,7 +5756,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -6805,27 +6467,6 @@
           },
           {
             "kind": "Function",
-            "name": "closeLoader",
-            "printedName": "closeLoader()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigitalReefSDK@objc(cs)DRNotificationHandler(im)closeLoader",
-            "mangledName": "$s14DigitalReefSDK21DRNotificationHandlerC11closeLoaderyyF",
-            "moduleName": "DigitalReefSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "requestPermission",
             "printedName": "requestPermission()",
             "children": [
@@ -7131,7 +6772,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -7330,12 +6971,1760 @@
       },
       {
         "kind": "Import",
-        "name": "RealmSwift",
-        "printedName": "RealmSwift",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationDR",
+        "printedName": "LocationDR",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:insertInto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationDR",
+                "printedName": "DigitalReefSDK.LocationDR",
+                "usr": "c:@M@DigitalReefSDK@objc(cs)LocationDR"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSEntityDescription",
+                "printedName": "CoreData.NSEntityDescription",
+                "usr": "c:objc(cs)NSEntityDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreData.NSManagedObjectContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DigitalReefSDK@objc(cs)LocationDR(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "moduleName": "DigitalReefSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRequest",
+            "printedName": "fetchRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSFetchRequest",
+                "printedName": "CoreData.NSFetchRequest<DigitalReefSDK.LocationDR>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationDR",
+                    "printedName": "DigitalReefSDK.LocationDR",
+                    "usr": "c:@M@DigitalReefSDK@objc(cs)LocationDR"
+                  }
+                ],
+                "usr": "c:objc(cs)NSFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DigitalReefSDK10LocationDRC12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "moduleName": "DigitalReefSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)altitude",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC8altitudeSdvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)altitude",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8altitudeSdvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setAltitude:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8altitudeSdvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)countryCode",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC11countryCodeSSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)countryCode",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11countryCodeSSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setCountryCode:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11countryCodeSSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countryName",
+            "printedName": "countryName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)countryName",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC11countryNameSSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)countryName",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11countryNameSSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setCountryName:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11countryNameSSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureName",
+            "printedName": "featureName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)featureName",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC11featureNameSSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)featureName",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11featureNameSSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setFeatureName:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11featureNameSSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "horizontalAccuracy",
+            "printedName": "horizontalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)horizontalAccuracy",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC18horizontalAccuracySdvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)horizontalAccuracy",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC18horizontalAccuracySdvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setHorizontalAccuracy:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC18horizontalAccuracySdvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)id",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC2id10Foundation4UUIDVSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)id",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC2id10Foundation4UUIDVSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setId:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC2id10Foundation4UUIDVSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)latitude",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC8latitudeSdvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)latitude",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8latitudeSdvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setLatitude:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8latitudeSdvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locality",
+            "printedName": "locality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)locality",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC8localitySSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)locality",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8localitySSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setLocality:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8localitySSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)longitude",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC9longitudeSdvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)longitude",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC9longitudeSdvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setLongitude:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC9longitudeSdvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mainArea",
+            "printedName": "mainArea",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)mainArea",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC8mainAreaSSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)mainArea",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8mainAreaSSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setMainArea:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC8mainAreaSSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mockedLocation",
+            "printedName": "mockedLocation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)mockedLocation",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC06mockedD0Sbvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)mockedLocation",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC06mockedD0Sbvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setMockedLocation:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC06mockedD0Sbvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sampleCollectionTime",
+            "printedName": "sampleCollectionTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)sampleCollectionTime",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC20sampleCollectionTime10Foundation4DateVSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)sampleCollectionTime",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC20sampleCollectionTime10Foundation4DateVSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setSampleCollectionTime:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC20sampleCollectionTime10Foundation4DateVSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serverAdId",
+            "printedName": "serverAdId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)serverAdId",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC10serverAdIdSSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)serverAdId",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC10serverAdIdSSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setServerAdId:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC10serverAdIdSSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)status",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC6statusSSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)status",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC6statusSSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setStatus:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC6statusSSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subLocality",
+            "printedName": "subLocality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)subLocality",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC11subLocalitySSSgvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)subLocality",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11subLocalitySSSgvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setSubLocality:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC11subLocalitySSSgvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verticalAccuracy",
+            "printedName": "verticalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(py)verticalAccuracy",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC16verticalAccuracySdvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)verticalAccuracy",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC16verticalAccuracySdvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DigitalReefSDK@objc(cs)LocationDR(im)setVerticalAccuracy:",
+                "mangledName": "$s14DigitalReefSDK10LocationDRC16verticalAccuracySdvs",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLPlacemark",
+                "printedName": "CoreLocation.CLPlacemark",
+                "usr": "c:objc(cs)CLPlacemark"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DigitalReefSDK10LocationDRC6updateyySo11CLPlacemarkCF",
+            "mangledName": "$s14DigitalReefSDK10LocationDRC6updateyySo11CLPlacemarkCF",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DigitalReefSDK@objc(cs)LocationDR",
+        "mangledName": "$s14DigitalReefSDK10LocationDRC",
+        "moduleName": "DigitalReefSDK",
+        "objc_name": "LocationDR",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSManagedObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CoreData.NSManagedObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -7346,7 +8735,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly",
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -7381,6 +8770,33 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7396,7 +8812,7 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -7410,6 +8826,13 @@
         "kind": "Import",
         "name": "StoreKit",
         "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK"
       },
@@ -8075,8 +9498,203 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationSP",
+        "printedName": "LocationSP",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DigitalReefSDK10LocationSPV2id10Foundation4UUIDVvp",
+            "mangledName": "$s14DigitalReefSDK10LocationSPV2id10Foundation4UUIDVvp",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DigitalReefSDK10LocationSPV2id10Foundation4UUIDVvg",
+                "mangledName": "$s14DigitalReefSDK10LocationSPV2id10Foundation4UUIDVvg",
+                "moduleName": "DigitalReefSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationSP",
+                "printedName": "DigitalReefSDK.LocationSP",
+                "usr": "s:14DigitalReefSDK10LocationSPV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14DigitalReefSDK10LocationSPV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14DigitalReefSDK10LocationSPV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DigitalReefSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DigitalReefSDK10LocationSPV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14DigitalReefSDK10LocationSPV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DigitalReefSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14DigitalReefSDK10LocationSPV",
+        "mangledName": "$s14DigitalReefSDK10LocationSPV",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
       },
       {
         "kind": "Import",
@@ -8137,6 +9755,23 @@
         "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK"
       },
@@ -11763,8 +13398,140 @@
       },
       {
         "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppContent",
+        "printedName": "InAppContent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppContent",
+                "printedName": "DigitalReefSDK.InAppContent",
+                "usr": "s:14DigitalReefSDK12InAppContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14DigitalReefSDK12InAppContentV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14DigitalReefSDK12InAppContentV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DigitalReefSDK12InAppContentV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14DigitalReefSDK12InAppContentV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DigitalReefSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14DigitalReefSDK12InAppContentV",
+        "mangledName": "$s14DigitalReefSDK12InAppContentV",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
@@ -11776,7 +13543,10 @@
         "name": "ImageIO",
         "printedName": "ImageIO",
         "declKind": "Import",
-        "moduleName": "DigitalReefSDK"
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -11792,6 +13562,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
@@ -12876,7 +14656,51 @@
         "declKind": "Import",
         "moduleName": "DigitalReefSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -14950,6 +16774,20 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -14957,6 +16795,43 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
       },
       {
         "kind": "Import",
@@ -15766,6 +17641,56 @@
               "Dynamic",
               "AccessControl",
               "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(UIKit.UIImage?, Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC14DigitalReefSDKE3gif3urlABSg_Sdt10Foundation3URLV_tFZ",
+            "mangledName": "$sSo7UIImageC14DigitalReefSDKE3gif3urlABSg_Sdt10Foundation3URLV_tFZ",
+            "moduleName": "DigitalReefSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -17161,7 +19086,7 @@
       "kind": "StringLiteral",
       "offset": 2513,
       "length": 8,
-      "value": "\"4.27.1\""
+      "value": "\"4.28.1\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
@@ -17892,6 +19817,20 @@
       "value": "\"com.digitalreef.taks.bg\""
     },
     {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 7195,
+      "length": 12,
+      "value": "\"LocationDR\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 7240,
+      "length": 16,
+      "value": "\"LocationStatus\""
+    },
+    {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/AdsBaseViewController.swift",
       "kind": "StringLiteral",
       "offset": 180,
@@ -17957,7 +19896,7 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/AdsBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38920,
+      "offset": 38898,
       "length": 5,
       "value": "false"
     },
@@ -18790,161 +20729,161 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 255,
+      "offset": 244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 290,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 345,
+      "offset": 334,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 378,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 434,
+      "offset": 423,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 477,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 519,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 710,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 761,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 822,
+      "offset": 811,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 864,
+      "offset": 853,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 912,
+      "offset": 901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 957,
+      "offset": 946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 1052,
+      "offset": 1041,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1099,
+      "offset": 1088,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1143,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1205,
+      "offset": 1194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 1397,
+      "offset": 1386,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1441,
+      "offset": 1430,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1488,
+      "offset": 1477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1550,
+      "offset": 1539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 1592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdDBModel.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1694,
       "length": 2,
       "value": "\"\""
     },
@@ -19007,14 +20946,14 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/InAppMessageService.swift",
       "kind": "StringLiteral",
-      "offset": 12599,
+      "offset": 8720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/OTA\/OTAPromotionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10769,
+      "offset": 10774,
       "length": 5,
       "value": "false"
     },
@@ -19103,6 +21042,20 @@
       "value": "\"SURVEY_COMPLETED\""
     },
     {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/APIService\/APIService.swift",
+      "kind": "Dictionary",
+      "offset": 501,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/APIService\/APIService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 844,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/KeyboardStateListener.swift",
       "kind": "BooleanLiteral",
       "offset": 224,
@@ -19112,98 +21065,98 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3135,
+      "offset": 3434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5512,
+      "offset": 5864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5540,
+      "offset": 5892,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8389,
+      "offset": 8741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8417,
+      "offset": 8769,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/SyncDeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8441,
+      "offset": 8793,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppAnalytics\/AdAnalyticsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23693,
+      "offset": 23696,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppAnalytics\/AdAnalyticsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27018,
+      "offset": 27019,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppEvents\/Models\/InAppEventsDbModel.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 690,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppEvents\/Models\/InAppEventsDbModel.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 867,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/SharedAppGroups.swift",
       "kind": "StringLiteral",
-      "offset": 216,
+      "offset": 204,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Config\/SharedAppGroups.swift",
       "kind": "StringLiteral",
-      "offset": 246,
+      "offset": 234,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Extensions\/Data+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8718,
+      "offset": 9197,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Extensions\/Data+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8723,
+      "offset": 9202,
       "length": 2,
       "value": "14"
     },
@@ -19336,7 +21289,7 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Managers\/AdPresentation\/AdPresentationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2887,
+      "offset": 2602,
       "length": 5,
       "value": "false"
     },
@@ -19516,9 +21469,37 @@
       "value": "\"TP\""
     },
     {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/AdsViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 305,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/AdsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 474,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/AdsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 516,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/AdsViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 554,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppAnalytics\/Models\/AdAnalyticsDBModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1436,
+      "offset": 1424,
       "length": 5,
       "value": "false"
     },
@@ -19957,6 +21938,76 @@
       "value": "\"TP\""
     },
     {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6229,
+      "length": 15,
+      "value": "\"must_validate\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6276,
+      "length": 18,
+      "value": "\"background_color\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6324,
+      "length": 16,
+      "value": "\"background_url\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6364,
+      "length": 10,
+      "value": "\"html_url\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6401,
+      "length": 13,
+      "value": "\"theme_color\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6450,
+      "length": 23,
+      "value": "\"close_button_position\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6502,
+      "length": 15,
+      "value": "\"start_sending\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6545,
+      "length": 14,
+      "value": "\"stop_sending\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6587,
+      "length": 14,
+      "value": "\"display_when\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/Models\/AdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6630,
+      "length": 16,
+      "value": "\"in_app_content\""
+    },
+    {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Extensions\/MobileProvision.swift",
       "kind": "BooleanLiteral",
       "offset": 262,
@@ -20050,91 +22101,91 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 582,
+      "offset": 570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 640,
+      "offset": 628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 697,
+      "offset": 685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 902,
+      "offset": 890,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2309,
+      "offset": 2297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 14538,
+      "offset": 14157,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15430,
+      "offset": 15047,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16362,
+      "offset": 16010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17305,
+      "offset": 16954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 18634,
+      "offset": 17781,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 30205,
+      "offset": 27883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 35541,
+      "offset": 33178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Push\/DRNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 37135,
+      "offset": 34770,
       "length": 5,
       "value": "false"
     },
@@ -20153,88 +22204,137 @@
       "value": "\"DigitalReefSDK\""
     },
     {
-      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/Components\/Video\/AdVideoPlayerViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/Components\/Video\/AdVideoPlayerViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/Components\/Video\/AdVideoPlayerViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2061,
-      "length": 4,
-      "value": "true"
+      "offset": 340,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2526,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2571,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/Components\/Video\/AdVideoPlayerViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2621,
+      "offset": 377,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3378,
+      "offset": 2049,
       "length": 4,
       "value": "true"
     },
     {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2514,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2559,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2609,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/RealmManager\/RealmManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/AdsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 367,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/AdsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 405,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 1414,
       "length": 11,
       "value": "\"M-G-S-F-X\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5057,
+      "offset": 5151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8368,
+      "offset": 16884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8427,
+      "offset": 16943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23918,
+      "offset": 21557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26550,
+      "offset": 24193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 29673,
+      "offset": 27316,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Location\/Models\/Location.swift",
+      "kind": "BooleanLiteral",
+      "offset": 663,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Common\/TrackingManager.swift",
@@ -20463,9 +22563,16 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/Custom Views\/UIVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 25150,
+      "offset": 25217,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/AdComponentModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 14,
+      "value": "\"original_url\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
@@ -20804,16 +22911,37 @@
       "value": "\"Unknown\""
     },
     {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/Components\/AdImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 274,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsViewControllers\/NewAdView\/Components\/AdImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 309,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/ServicesManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 430,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/ServicesManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 596,
+      "offset": 872,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/ServicesManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7109,
+      "offset": 7425,
       "length": 5,
       "value": "false"
     },
@@ -20827,42 +22955,42 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 407,
+      "offset": 465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 15847,
+      "offset": 15960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 37121,
+      "offset": 37244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 37577,
+      "offset": 37700,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 40109,
+      "offset": 40232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 40416,
+      "offset": 40539,
       "length": 5,
       "value": "false"
     },
@@ -20935,6 +23063,20 @@
       "offset": 201,
       "length": 15,
       "value": "\"CustomTracker\""
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/AsyncImageUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 904,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/AsyncImageUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1089,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Library\/Developer\/Xcode\/DerivedData\/DigitalReefSDK-flujwozhchkvvhgnveqkbftbliqg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphoneos\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",

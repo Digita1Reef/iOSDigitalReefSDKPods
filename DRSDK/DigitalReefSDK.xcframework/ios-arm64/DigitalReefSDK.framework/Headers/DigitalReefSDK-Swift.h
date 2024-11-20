@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -407,7 +408,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DRNotificati
 - (BOOL)checkSameOrNotWithOrg:(NSString * _Nullable)org SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addAdtoDBWithAdSourceType:(NSString * _Nonnull)adSourceType purposeType:(NSString * _Nonnull)purposeType SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getOptInType SWIFT_WARN_UNUSED_RESULT;
-- (void)closeLoader;
 @end
 
 @class UNNotification;
@@ -450,7 +450,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (void)addOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)removeOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)notifySDKForOTAEventPerformedInHostAppWithOtaPromotionId:(NSString * _Nonnull)otaPromotionId otaEvent:(enum OTAEvent)otaEvent;
-+ (void)requestPushPermission;
+- (void)requestPushPermission;
 + (void)sendEventWithName:(NSString * _Nonnull)name;
 - (void)requestAppTrackingTransparencyPermission;
 - (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
@@ -467,6 +467,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (void)willPresentNotificationWithCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (NSArray<OTAPromotion *> * _Nonnull)readOTAPromotions SWIFT_WARN_UNUSED_RESULT;
 - (void)saveOTAPromotionToDBWithOtaPromotion:(OTAPromotion * _Nonnull)otaPromotion;
+@end
+
+
+@interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
+/// This method will request permission to capture the device’s location and will also start the location service if the user grants the permission.
+- (void)startLocation;
+/// This method will  start the location service if the user grants the permission.
+- (void)updateLocation;
+/// This method will  stop the location service.
+- (void)stopLocation;
+/// This property indicates whether the location service is enabled or disabled.
+@property (nonatomic, readonly) BOOL isLocationServiceEnable;
 @end
 
 
@@ -495,22 +507,10 @@ SWIFT_CLASS("_TtC14DigitalReefSDK19InAppMessageService")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) InAppMessageService * _Nonnull shared;)
 + (InAppMessageService * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)saveMessage:(DRInAppHelper * _Nonnull)item;
-- (void)saveHistory:(DRInAppModel * _Nonnull)item sessionId:(NSString * _Nonnull)sessionId;
-- (void)removeMessage:(NSString * _Nonnull)id;
-- (void)removeStaleMessages;
-- (void)removeStaleHistory;
-- (NSArray<DRInAppModel *> * _Nonnull)getAll SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getLaunchInAppMessages SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)checkInAppAdExists:(NSString * _Nonnull)id adId:(NSString * _Nonnull)adId SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<DRInAppModel *> * _Nonnull)getPushClickInAppMessages:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)updateAdShown:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
-- (NSArray<DRInAppModel *> * _Nonnull)getInAppMessagesFromInAppEvent:(NSString * _Nonnull)eventName SWIFT_WARN_UNUSED_RESULT;
-- (int32_t)countMessagesViewedHistorically:(NSInteger)timeDelta SWIFT_WARN_UNUSED_RESULT;
-- (int32_t)countMessagesViewedHistoricallyByMessageWithId:(NSString * _Nonnull)id timeDelta:(NSInteger)timeDelta SWIFT_WARN_UNUSED_RESULT;
-- (int32_t)countMessagesViewedHistoricallyByCategory:(NSString * _Nonnull)category timeDelta:(NSInteger)timeDelta SWIFT_WARN_UNUSED_RESULT;
-- (int32_t)countMessagesViewedInThisSession:(NSString * _Nonnull)sessionId SWIFT_WARN_UNUSED_RESULT;
-- (int32_t)countMessagesViewedInThisSessionByCategoryWithCategory:(NSString * _Nonnull)category sessionId:(NSString * _Nonnull)sessionId SWIFT_WARN_UNUSED_RESULT;
-- (int32_t)countMessagesViewedInThisSessionByMessageWithMessageId:(NSString * _Nonnull)messageId sessionId:(NSString * _Nonnull)sessionId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -529,6 +529,37 @@ SWIFT_CLASS("_TtC14DigitalReefSDK17LocalInAppMessage")
 @interface LocalInAppMessage : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("LocationDR")
+@interface LocationDR : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSUUID;
+@class NSDate;
+
+@interface LocationDR (SWIFT_EXTENSION(DigitalReefSDK))
+@property (nonatomic) double altitude;
+@property (nonatomic, copy) NSString * _Nullable countryCode;
+@property (nonatomic, copy) NSString * _Nullable countryName;
+@property (nonatomic, copy) NSString * _Nullable featureName;
+@property (nonatomic) double horizontalAccuracy;
+@property (nonatomic, copy) NSUUID * _Nullable id;
+@property (nonatomic) double latitude;
+@property (nonatomic, copy) NSString * _Nullable locality;
+@property (nonatomic) double longitude;
+@property (nonatomic, copy) NSString * _Nullable mainArea;
+@property (nonatomic) BOOL mockedLocation;
+@property (nonatomic, copy) NSDate * _Nullable sampleCollectionTime;
+@property (nonatomic, copy) NSString * _Nullable serverAdId;
+@property (nonatomic, copy) NSString * _Nullable status;
+@property (nonatomic, copy) NSString * _Nullable subLocality;
+@property (nonatomic) double verticalAccuracy;
 @end
 
 

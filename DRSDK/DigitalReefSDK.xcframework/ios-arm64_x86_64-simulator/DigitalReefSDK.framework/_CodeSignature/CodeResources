@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		idoy45CIID3J0JKvgXePCcHvgAo=
+		XC4vAgN3zYy/NnYhzAlEmuABzq4=
 		</data>
 		<key>LocationDR.momd/LocationDR.mom</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9Iu+b+8ocuzbislPDxyOTEFGmaw=
+		ZK0R3Ar48QeBZHTfMXAhznwNSCY=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/o77dGI02pNdsXxTIfPdm18SPnM=
+		k/XDdCa6sfvANLel2RS2KT6QJVI=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9Iu+b+8ocuzbislPDxyOTEFGmaw=
+		ZK0R3Ar48QeBZHTfMXAhznwNSCY=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EsHnIeaB+OIY94HKcXYC3+ZG62A=
+		995qaTDteF/kinMGvz3QKp9x5c0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -181,7 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9b8jmBDxvCuG4Jx8LpzK8b0ELuNmM0dV5x3IgQ+anu0=
+			4ma+wILZ7rBjdaAKOEi5XFYcXUcOAvRmULOAmifvhb8=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -209,14 +209,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8P+3umcArFe9lAJiCGl3iC8JxsedM77bgV6tDGP2cLo=
+			HHadFtk7s7qgSsLH4vv9hRQt80ErJ/izefi73mR92wI=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9b8jmBDxvCuG4Jx8LpzK8b0ELuNmM0dV5x3IgQ+anu0=
+			4ma+wILZ7rBjdaAKOEi5XFYcXUcOAvRmULOAmifvhb8=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -244,7 +244,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKPMDkxDihG0YEEIVSSJ+zLBiXRPRA654vE/6Ex1Isk=
+			KC6bFNRc0Tf9nnGCNEROgKIgh+k88PaxOtBfNE73bAA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

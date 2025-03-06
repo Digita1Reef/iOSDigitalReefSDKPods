@@ -19086,7 +19086,7 @@
       "kind": "StringLiteral",
       "offset": 2513,
       "length": 8,
-      "value": "\"4.28.1\""
+      "value": "\"4.28.2\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
@@ -22311,21 +22311,21 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21557,
+      "offset": 21614,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24193,
+      "offset": 24250,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27316,
+      "offset": 27373,
       "length": 4,
       "value": "true"
     },

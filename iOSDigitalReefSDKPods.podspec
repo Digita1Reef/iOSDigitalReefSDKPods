@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name               = "iOSDigitalReefSDKPods"
-  spec.version            = "4.28.1"
+  spec.version            = "4.28.2"
   spec.summary            = "CocoaPods library for DigitalReef's SDK."
   spec.description        = "The DR SDK enables partners to integrate the services provided by the company"
   spec.homepage           = "https://digitalreef.com/"

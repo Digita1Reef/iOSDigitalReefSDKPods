@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J+6x7aOTRTerkdEqyZgPY57yb84=
+		b2yRu1WnCGw2Hf1CWZmrQle8JDg=
 		</data>
 		<key>LocationDR.momd/LocationDR.mom</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xyKoghCkBDB4q4XyMdtxwjPbWFo=
+		ZK0kYmJ1UNfNM60vTcQuyfcm2rw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		X5b7E8CkXYiRphPX+T7uiaWq7tk=
+		hdS2aHQy9bybdNHXQesewPBVzgo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -161,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vw+rAIRHixeiio5S2fwOMnFtEkhsgwygoW+VXBtYvwc=
+			M7hXS2H3oG897wGJYbViecqfmaZx8F7NqR7+AIa/jo0=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQvJu9t2VM3Xvft82ooI8xrqD4XwKbfJngqLLbjuy9M=
+			JBGK8PEYIQfMU8cHYknQcedBzAjUAMlfVHbW6UHS5jE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

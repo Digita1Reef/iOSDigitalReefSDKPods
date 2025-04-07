@@ -446,6 +446,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 @property (nonatomic, strong) id <DeepLinkDelegate> _Nullable deepLinkDelegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setUp;
 + (void)includeMediaAttachmentWithRequest:(UNNotificationRequest * _Nonnull)request mutableContent:(UNMutableNotificationContent * _Nonnull)mutableContent contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
 - (void)addOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)removeOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
@@ -1131,6 +1132,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 @property (nonatomic, strong) id <DeepLinkDelegate> _Nullable deepLinkDelegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setUp;
 + (void)includeMediaAttachmentWithRequest:(UNNotificationRequest * _Nonnull)request mutableContent:(UNMutableNotificationContent * _Nonnull)mutableContent contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
 - (void)addOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)removeOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;

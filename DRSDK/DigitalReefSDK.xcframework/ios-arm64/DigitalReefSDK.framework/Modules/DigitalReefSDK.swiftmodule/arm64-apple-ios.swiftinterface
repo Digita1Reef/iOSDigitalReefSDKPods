@@ -35,6 +35,7 @@ import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DigitalReef : ObjectiveC.NSObject, DigitalReefSDK.DebugProtocol {
   @objc public static let shared: DigitalReefSDK.DigitalReef
   @objc public var deepLinkDelegate: (any DigitalReefSDK.DeepLinkDelegate)?
+  @objc public func setUp()
   @objc public static func includeMediaAttachment(request: UserNotifications.UNNotificationRequest, mutableContent: UserNotifications.UNMutableNotificationContent, contentHandler: @escaping ((UserNotifications.UNNotificationContent) -> Swift.Void))
   @objc public func addOTAObserver(_ otaObserver: any DigitalReefSDK.OTAObserver)
   @objc public func removeOTAObserver(_ otaObserver: any DigitalReefSDK.OTAObserver)

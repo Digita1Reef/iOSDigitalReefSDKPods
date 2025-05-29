@@ -3591,6 +3591,13 @@
       },
       {
         "kind": "Import",
+        "name": "Intents",
+        "printedName": "Intents",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19114,7 +19121,7 @@
       "kind": "StringLiteral",
       "offset": 2494,
       "length": 8,
-      "value": "\"4.28.3\""
+      "value": "\"4.28.4\""
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
@@ -21317,7 +21324,7 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Managers\/AdPresentation\/AdPresentationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2602,
+      "offset": 2603,
       "length": 5,
       "value": "false"
     },
@@ -22325,35 +22332,35 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16884,
+      "offset": 16920,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16943,
+      "offset": 16960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21614,
+      "offset": 21631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24250,
+      "offset": 24267,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/InAppMessage\/AdsFetchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27373,
+      "offset": 27390,
       "length": 4,
       "value": "true"
     },
@@ -22675,42 +22682,42 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8012,
+      "offset": 8020,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8046,
+      "offset": 8054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8475,
+      "offset": 8483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8532,
+      "offset": 8540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8587,
+      "offset": 8595,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9120,
+      "offset": 9128,
       "length": 5,
       "value": "false"
     },
@@ -22962,14 +22969,14 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/ServicesManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 872,
+      "offset": 1212,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Services\/ServicesManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7083,
+      "offset": 7561,
       "length": 5,
       "value": "false"
     },
@@ -23095,14 +23102,14 @@
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/AsyncImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 904,
+      "offset": 1511,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/javierlumbi\/Developer\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/AsyncImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 1089,
+      "offset": 1696,
       "length": 1,
       "value": "1"
     },

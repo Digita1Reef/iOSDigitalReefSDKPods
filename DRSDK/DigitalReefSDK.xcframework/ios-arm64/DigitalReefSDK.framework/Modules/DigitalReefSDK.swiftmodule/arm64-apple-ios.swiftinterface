@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DigitalReefSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -9,7 +9,6 @@ import AppTrackingTransparency
 import AuthenticationServices
 import BackgroundTasks
 import Combine
-import CoreData
 import CoreLocation
 import CoreMedia
 import CoreTelephony
@@ -225,10 +224,6 @@ extension DigitalReefSDK.DRNotificationHandler {
   public static var shared: DigitalReefSDK.LocalLogs
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(LocationDR) public class LocationDR : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
 extension Foundation.NSNotification.Name {
   public static let didUpdateIDFA: Foundation.Notification.Name
   public static let updateCurrentSeekTime: Foundation.Notification.Name
@@ -258,7 +253,6 @@ extension Foundation.NSNotification.Name {
 }
 public struct LocationSP : Swift.Codable, Swift.Identifiable {
   public let id: Foundation.UUID
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Foundation.UUID
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -306,76 +300,6 @@ public struct LocationSP : Swift.Codable, Swift.Identifiable {
   @objc @_Concurrency.MainActor @preconcurrency public func stopVideo()
   @objc @_Concurrency.MainActor @preconcurrency public func closeFullScreen()
   @objc deinit
-}
-extension DigitalReefSDK.LocationDR {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DigitalReefSDK.LocationDR>
-  @objc @NSManaged dynamic public var altitude: Swift.Double {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var countryCode: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var countryName: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var featureName: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var horizontalAccuracy: Swift.Double {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var id: Foundation.UUID? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var latitude: Swift.Double {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var locality: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var longitude: Swift.Double {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var mainArea: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var mockedLocation: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var sampleCollectionTime: Foundation.Date? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var serverAdId: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var status: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var subLocality: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var verticalAccuracy: Swift.Double {
-    @objc get
-    @objc set
-  }
-}
-extension DigitalReefSDK.LocationDR {
-  public func update(_ location: CoreLocation.CLPlacemark)
 }
 public struct InAppContent : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws

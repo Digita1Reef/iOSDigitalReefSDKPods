@@ -63,6 +63,16 @@
         "moduleName": "DigitalReefSDK"
       },
       {
+        "kind": "Import",
+        "name": "GroupLinkStatic",
+        "printedName": "GroupLinkStatic",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "DigitalReef",
         "printedName": "DigitalReef",
@@ -1083,6 +1093,30 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "startGroupLinkBluetoothService",
+            "printedName": "startGroupLinkBluetoothService()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)DigitalReef(im)startGroupLinkBluetoothService",
+            "mangledName": "$s14DigitalReefSDK0aB0C30startGroupLinkBluetoothServiceyyF",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -8144,6 +8178,17 @@
         "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GroupLinkStatic",
+        "printedName": "GroupLinkStatic",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -17420,7 +17465,7 @@
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/DigitalReef.swift",
       "kind": "BooleanLiteral",
-      "offset": 722,
+      "offset": 754,
       "length": 5,
       "value": "false"
     },
@@ -17506,7 +17551,7 @@
       "kind": "StringLiteral",
       "offset": 2498,
       "length": 8,
-      "value": "\"4.28.8\""
+      "value": "\"4.28.9\""
     },
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Helpers\/Constants.swift",
@@ -21403,35 +21448,35 @@
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 15960,
+      "offset": 16065,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 37567,
+      "offset": 37672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38023,
+      "offset": 38128,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 40555,
+      "offset": 40660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/Device\/Source\/AppStateInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 40862,
+      "offset": 40967,
       "length": 5,
       "value": "false"
     },

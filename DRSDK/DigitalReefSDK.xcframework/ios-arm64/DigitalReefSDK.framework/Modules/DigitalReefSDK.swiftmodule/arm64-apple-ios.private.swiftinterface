@@ -36,12 +36,18 @@ import zlib
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DigitalReef : ObjectiveC.NSObject, DigitalReefSDK.DebugProtocol {
   @objc public static let shared: DigitalReefSDK.DigitalReef
   @objc public var deepLinkDelegate: (any DigitalReefSDK.DeepLinkDelegate)?
+  @objc public func setSDKEnabled(_ enabled: Swift.Bool)
+  @objc public func shutDown()
+  @objc public func isSDKEnabled() -> Swift.Bool
   @objc public func setUp()
   @objc public static func includeMediaAttachment(request: UserNotifications.UNNotificationRequest, mutableContent: UserNotifications.UNMutableNotificationContent, contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
   @objc public func addOTAObserver(_ otaObserver: any DigitalReefSDK.OTAObserver)
   @objc public func removeOTAObserver(_ otaObserver: any DigitalReefSDK.OTAObserver)
   @objc public func notifySDKForOTAEventPerformedInHostApp(otaPromotionId: Swift.String, otaEvent: DigitalReefSDK.OTAEvent)
   @objc public func requestPushPermission()
+  @objc(registerWindowScene:) public func register(windowScene: UIKit.UIWindowScene)
+  @objc(unregisterWindowScene:) public func unregister(windowScene: UIKit.UIWindowScene)
+  @objc(isDigitalReefNotification:) public func canHandleNotification(userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
   @objc public static func sendEvent(name: Swift.String)
   @objc public func requestAppTrackingTransparencyPermission()
   @objc public func setClientAttributes(attributes: [Swift.String : Swift.String])
@@ -296,9 +302,6 @@ public struct LocationSP : Swift.Codable, Swift.Identifiable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension DigitalReefSDK.DigitalReef {
-  @objc dynamic public func startGroupLinkBluetoothService()
-}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class UIVideoView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var videoHeight: CoreFoundation.CGFloat?
   @objc @_Concurrency.MainActor @preconcurrency public var adType: Swift.String?
@@ -334,6 +337,7 @@ extension DigitalReefSDK.DigitalReef {
   @objc @_Concurrency.MainActor @preconcurrency public var isMuted: Swift.Bool
   @objc @_Concurrency.MainActor @preconcurrency convenience public init(mainWindow: UIKit.UIWindow, frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   #endif

@@ -425,6 +425,7 @@ SWIFT_PROTOCOL("_TtP14DigitalReefSDK16DeepLinkDelegate_")
 @class UNNotificationContent;
 @protocol OTAObserver;
 enum OTAEvent : NSInteger;
+@class UIWindowScene;
 @class UIApplication;
 @class NSData;
 @class UNUserNotificationCenter;
@@ -436,12 +437,22 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 @property (nonatomic, strong) id <DeepLinkDelegate> _Nullable deepLinkDelegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setSDKEnabled:(BOOL)enabled;
+- (void)shutDown;
+- (BOOL)isSDKEnabled SWIFT_WARN_UNUSED_RESULT;
 - (void)setUp;
 + (void)includeMediaAttachmentWithRequest:(UNNotificationRequest * _Nonnull)request mutableContent:(UNMutableNotificationContent * _Nonnull)mutableContent contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
 - (void)addOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)removeOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)notifySDKForOTAEventPerformedInHostAppWithOtaPromotionId:(NSString * _Nonnull)otaPromotionId otaEvent:(enum OTAEvent)otaEvent;
 - (void)requestPushPermission;
+/// Optionally registers a host scene explicitly. Automatic discovery remains enabled.
+- (void)registerWindowScene:(UIWindowScene * _Nonnull)windowScene;
+/// Removes an explicitly registered host scene.
+- (void)unregisterWindowScene:(UIWindowScene * _Nonnull)windowScene;
+/// Returns true when the payload is owned by DigitalReef, including malformed
+/// DigitalReef payloads which the host should not forward to another provider.
+- (BOOL)isDigitalReefNotification:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 + (void)sendEventWithName:(NSString * _Nonnull)name;
 - (void)requestAppTrackingTransparencyPermission;
 - (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
@@ -458,10 +469,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (void)willPresentNotificationWithCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (NSArray<OTAPromotion *> * _Nonnull)readOTAPromotions SWIFT_WARN_UNUSED_RESULT;
 - (void)saveOTAPromotionToDBWithOtaPromotion:(OTAPromotion * _Nonnull)otaPromotion;
-@end
-
-@interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
-- (void)startGroupLinkBluetoothService;
 @end
 
 @interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
@@ -610,6 +617,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (nonnull instancetype)initWithMainWindow:(UIWindow * _Nonnull)mainWindow frame:(CGRect)frame;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (void)setVolumeIcon;
 - (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight imgAndVidContainer:(UIView * _Nonnull)imageAndVideoContainer;
@@ -1054,6 +1062,7 @@ SWIFT_PROTOCOL("_TtP14DigitalReefSDK16DeepLinkDelegate_")
 @class UNNotificationContent;
 @protocol OTAObserver;
 enum OTAEvent : NSInteger;
+@class UIWindowScene;
 @class UIApplication;
 @class NSData;
 @class UNUserNotificationCenter;
@@ -1065,12 +1074,22 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 @property (nonatomic, strong) id <DeepLinkDelegate> _Nullable deepLinkDelegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setSDKEnabled:(BOOL)enabled;
+- (void)shutDown;
+- (BOOL)isSDKEnabled SWIFT_WARN_UNUSED_RESULT;
 - (void)setUp;
 + (void)includeMediaAttachmentWithRequest:(UNNotificationRequest * _Nonnull)request mutableContent:(UNMutableNotificationContent * _Nonnull)mutableContent contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
 - (void)addOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)removeOTAObserver:(id <OTAObserver> _Nonnull)otaObserver;
 - (void)notifySDKForOTAEventPerformedInHostAppWithOtaPromotionId:(NSString * _Nonnull)otaPromotionId otaEvent:(enum OTAEvent)otaEvent;
 - (void)requestPushPermission;
+/// Optionally registers a host scene explicitly. Automatic discovery remains enabled.
+- (void)registerWindowScene:(UIWindowScene * _Nonnull)windowScene;
+/// Removes an explicitly registered host scene.
+- (void)unregisterWindowScene:(UIWindowScene * _Nonnull)windowScene;
+/// Returns true when the payload is owned by DigitalReef, including malformed
+/// DigitalReef payloads which the host should not forward to another provider.
+- (BOOL)isDigitalReefNotification:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 + (void)sendEventWithName:(NSString * _Nonnull)name;
 - (void)requestAppTrackingTransparencyPermission;
 - (void)setClientAttributesWithAttributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributes;
@@ -1087,10 +1106,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (void)willPresentNotificationWithCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (NSArray<OTAPromotion *> * _Nonnull)readOTAPromotions SWIFT_WARN_UNUSED_RESULT;
 - (void)saveOTAPromotionToDBWithOtaPromotion:(OTAPromotion * _Nonnull)otaPromotion;
-@end
-
-@interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
-- (void)startGroupLinkBluetoothService;
 @end
 
 @interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
@@ -1239,6 +1254,7 @@ SWIFT_CLASS("_TtC14DigitalReefSDK11UIVideoView")
 - (nonnull instancetype)initWithMainWindow:(UIWindow * _Nonnull)mainWindow frame:(CGRect)frame;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (void)setVolumeIcon;
 - (void)playVideoWithVideoUrl:(NSURL * _Nonnull)url videoAsset:(AVAsset * _Nullable)avAsset image:(UIImageView * _Nullable)imageView fullScrnMode:(BOOL)fullScreenMode muted:(BOOL)videoMuted videoFrmtFull:(BOOL)videoFormatFull adId:(NSString * _Nonnull)adIdInfo campaignId:(NSString * _Nonnull)campaignIdInfo adType:(NSString * _Nonnull)adTypeInfo height:(CGFloat)videoHeight imgAndVidContainer:(UIView * _Nonnull)imageAndVideoContainer;

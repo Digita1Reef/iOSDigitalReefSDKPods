@@ -472,6 +472,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 @end
 
 @interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
+- (void)startGroupLinkBluetoothService;
+@end
+
+@interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
 /// This method will request permission to capture the device’s location and will also start the location service if the user grants the permission.
 - (void)startLocation;
 /// This method will  start the location service if the user grants the permission.
@@ -1106,6 +1110,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 - (void)willPresentNotificationWithCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (NSArray<OTAPromotion *> * _Nonnull)readOTAPromotions SWIFT_WARN_UNUSED_RESULT;
 - (void)saveOTAPromotionToDBWithOtaPromotion:(OTAPromotion * _Nonnull)otaPromotion;
+@end
+
+@interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
+- (void)startGroupLinkBluetoothService;
 @end
 
 @interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))

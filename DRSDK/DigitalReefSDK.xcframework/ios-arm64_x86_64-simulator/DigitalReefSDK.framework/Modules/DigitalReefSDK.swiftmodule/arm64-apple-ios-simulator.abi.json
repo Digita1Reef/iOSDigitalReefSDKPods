@@ -90,6 +90,16 @@
         "moduleName": "DigitalReefSDK"
       },
       {
+        "kind": "Import",
+        "name": "GroupLinkStatic",
+        "printedName": "GroupLinkStatic",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "DigitalReef",
         "printedName": "DigitalReef",
@@ -1281,6 +1291,30 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "startGroupLinkBluetoothService",
+            "printedName": "startGroupLinkBluetoothService()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DigitalReefSDK@objc(cs)DigitalReef(im)startGroupLinkBluetoothService",
+            "mangledName": "$s14DigitalReefSDK0aB0C30startGroupLinkBluetoothServiceyyF",
+            "moduleName": "DigitalReefSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -8409,6 +8443,17 @@
         "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "DigitalReefSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GroupLinkStatic",
+        "printedName": "GroupLinkStatic",
+        "declKind": "Import",
+        "moduleName": "DigitalReefSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -17895,21 +17940,21 @@
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/DigitalReef.swift",
       "kind": "IntegerLiteral",
-      "offset": 820,
+      "offset": 852,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/DigitalReef.swift",
       "kind": "BooleanLiteral",
-      "offset": 1546,
+      "offset": 1578,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/josecarcamo\/iOSProject\/DigitalReefiOS\/SDKiOS\/DigitalReefSDK\/DigitalReefSDK\/DigitalReef.swift",
       "kind": "BooleanLiteral",
-      "offset": 1992,
+      "offset": 2024,
       "length": 5,
       "value": "false"
     },
@@ -22422,98 +22467,98 @@
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 4,
       "value": "\"bg\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 986,
       "length": 16,
       "value": "\"compressscreen\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1127,
       "length": 10,
       "value": "\"fs.alert\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1262,
       "length": 10,
       "value": "\"fs.close\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1408,
       "length": 16,
       "value": "\"fs.star.filled\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1560,
       "length": 16,
       "value": "\"fs.star.hollow\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1706,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1836,
       "length": 6,
       "value": "\"mute\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1962,
       "length": 7,
       "value": "\"pause\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2097,
       "length": 11,
       "value": "\"pauseicon\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2226,
       "length": 6,
       "value": "\"play\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2358,
       "length": 10,
       "value": "\"playicon\""
     },
     {
-      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.s4lEVd\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/var\/folders\/cn\/7hj808lj6rvct0kvyt2ng1r80000gn\/T\/digitalreef-xcframework.Qahfdh\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DigitalReefSDK\/IntermediateBuildFilesPath\/DigitalReefSDK.build\/Release-iphonesimulator\/DigitalReefSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2488,
       "length": 7,

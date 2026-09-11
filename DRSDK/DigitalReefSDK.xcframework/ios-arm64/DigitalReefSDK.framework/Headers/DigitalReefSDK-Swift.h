@@ -472,6 +472,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) DigitalReef 
 @end
 
 @interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
+- (void)startGroupLinkBluetoothService;
+@end
+
+@interface DigitalReef (SWIFT_EXTENSION(DigitalReefSDK))
 /// This method will request permission to capture the device’s location and will also start the location service if the user grants the permission.
 - (void)startLocation;
 /// This method will  start the location service if the user grants the permission.

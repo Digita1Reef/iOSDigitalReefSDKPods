@@ -302,6 +302,9 @@ public struct LocationSP : Swift.Codable, Swift.Identifiable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension DigitalReefSDK.DigitalReef {
+  @objc dynamic public func startGroupLinkBluetoothService()
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class UIVideoView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var videoHeight: CoreFoundation.CGFloat?
   @objc @_Concurrency.MainActor @preconcurrency public var adType: Swift.String?

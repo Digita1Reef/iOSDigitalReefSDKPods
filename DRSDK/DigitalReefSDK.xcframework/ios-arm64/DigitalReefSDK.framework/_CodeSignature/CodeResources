@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		wRJoRn8NB8PuIu89x2WdmB0V/4A=
+		/Si4jvPxIr49MwGtIjVpp/056wM=
 		</data>
 		<key>Config.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		7VCD9ekTFQ/H4q5+ndfpICS7wMg=
+		P42RECB2vVMCaK7fzG6HptOJWd8=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -38,31 +38,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jD3+O3yhNwGg7LdgWIHhDC0qX5k=
+		Pu90iL7nhhytfTdWF7XmDs10mi4=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8CNYujkmqsLppCkvG5o0eTISgco=
+		ysFoXzeIgCR+wVSXCi3IgoO65M8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		vg4VeGdib5R7Em+0LBTSaYv9C1A=
+		8Wm7gAW18w8z1jRr3KeLs92f2Iw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		jzJkxqpCUZb3+s0JHP+ZeSdBFgw=
+		AXKH9buwj8I+ANAN1eYSOdpQEAI=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vg4VeGdib5R7Em+0LBTSaYv9C1A=
-		</data>
-		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		0k9EiuWJlSYGkbU58LJJ+oAzd8I=
+		8Wm7gAW18w8z1jRr3KeLs92f2Iw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		5xo8ZZTZU/BkdGuiZNBrKxxjtlw=
+		9DlfZuo/nM8M/LY0N1FGyyDaUvQ=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -104,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SSZIEBvGwf3za3gDy+LicgwcSOEFJ+W6siwjQ3N8s94=
+			n+AT8yeayeTc0RqRzSKLtaJs9eotp/8xGFWjAry6b74=
 			</data>
 		</dict>
 		<key>Config.plist</key>
@@ -125,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2XZ4gqu7nxHQjJN3WGZLjtEISUNvD2p4CxMy5HNBTHg=
+			QYK0+9sc8RAxykmeWtqM/q+zE1lV8G5BqNfdYFY2u5A=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -139,42 +135,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mv3QPB9sSxNusQTZZt/bN+LNXylKZhtvSRrNjlO7fDw=
+			QiXo0K2K9D7902Vc2ONvYWKk1ZHfsO4VNXqZqc7aiLo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UGJSX0NaUrIEKzeTngjriv8pnkJmvWo8h5eF12eyjqU=
+			rkL6cF6J1QBBpM1iTJzqNEDQigKvmlS+QlCxBEknH5Y=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4W1Nz6I3eEOTX9bGQz+bckhFMcKzgn2gjdmeDgJBm34=
+			W4Y76q104G+dosas4rchPuwA5hAyKV5xTwdFOhm5d1g=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UGJSX0NaUrIEKzeTngjriv8pnkJmvWo8h5eF12eyjqU=
-			</data>
-		</dict>
-		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			baCxi/irZXsBryFCBMKsDef2K1O4cNyvT/0TFrYVY1M=
+			rkL6cF6J1QBBpM1iTJzqNEDQigKvmlS+QlCxBEknH5Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GY6bU57x6GPeA+Hhp3nfayypg4LBJcpaDj7NUVwCJdQ=
+			YI9A/SFIqlCnSCfq6cyP+Q6eV7F9rKzlUT8fAyrFW+g=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

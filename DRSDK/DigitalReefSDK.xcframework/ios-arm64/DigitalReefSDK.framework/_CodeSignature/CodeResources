@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		P42RECB2vVMCaK7fzG6HptOJWd8=
+		htjw9KSZZLTrP4kUl/OdCqfyu3I=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -38,23 +38,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L0uCECrDl0INwomC3nnxFSBvKyo=
+		G1U9qGv7bwz7zoFOozBL0NlRLOc=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		RYZSXex8zCrzs5d/lebyZ4+48M4=
+		dsD9kJvMlnEhBjN/bRhGtATyeCY=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8Wm7gAW18w8z1jRr3KeLs92f2Iw=
+		2IeOn+NqYq1Zlgh7SL1nGs+FQOM=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		AXKH9buwj8I+ANAN1eYSOdpQEAI=
+		cORgwNGA25xud4Et3ulaPGEUaHE=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8Wm7gAW18w8z1jRr3KeLs92f2Iw=
+		2IeOn+NqYq1Zlgh7SL1nGs+FQOM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		AW4mbDMjHQSHlrhZvs3cDvhferc=
+		s6t2NeG6U0aJgp84TMgF78lIFU0=
 		</data>
 		<key>PushRewardsVC.nib</key>
 		<data>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QYK0+9sc8RAxykmeWtqM/q+zE1lV8G5BqNfdYFY2u5A=
+			Vf1aOdeag0lBm7oduTnnO5J2iJTtX8F/VwWxJWugZSc=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -135,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			muECC0KbHlTdzKWtZntLzXG4soj5vFa3RgV5nyv1pss=
+			ZvVoo5PO3YAC8WSjMFqZ7Pxvd9mibugS+36yhNGchZ8=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rkL6cF6J1QBBpM1iTJzqNEDQigKvmlS+QlCxBEknH5Y=
+			is+n/kp8M8cGEM6p769xRIqsE41Vqaxp//OpptQAjBQ=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W4Y76q104G+dosas4rchPuwA5hAyKV5xTwdFOhm5d1g=
+			dq2Ivc4hJ2r/qFUohmuYs4cJSDNBklwl3tgf+7mooMI=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rkL6cF6J1QBBpM1iTJzqNEDQigKvmlS+QlCxBEknH5Y=
+			is+n/kp8M8cGEM6p769xRIqsE41Vqaxp//OpptQAjBQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4IwXUmj9/kyTJjV7QZZr0px2bpJuVvNwg3V3KrUP7cM=
+			pKlTivYu4brizi4G2TAKS1AFcZwbX5WQN8lVnBoMec8=
 			</data>
 		</dict>
 		<key>PushRewardsVC.nib</key>

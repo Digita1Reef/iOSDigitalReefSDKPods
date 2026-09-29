@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		RnUK8JIk4m+7pkZd+zg1HjeEjTE=
+		PENidqFHm13amzAjIdmgzqmMM7o=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -38,39 +38,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HdgMmHdMxoa/RrvI48qspGaWuMc=
+		NJjFqL0vY0B5qsnk/Z36jcof0Ww=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aHmdbV56w16K7tMJSSldvTWgMf4=
+		Ox5aO3PF4puYdSMsYnKKRxWOhMY=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bRj5POhQ2aJmuD71x+8mRrByck8=
+		7kMbJPJR8aVYBClWfPLLQX5g6B8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		E5DAbp7dFqFEAjFcv3/mKHScdc0=
+		a0SRRquHFu/5BiQRqviF3s5FMQg=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bRj5POhQ2aJmuD71x+8mRrByck8=
+		7kMbJPJR8aVYBClWfPLLQX5g6B8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aHmdbV56w16K7tMJSSldvTWgMf4=
+		Ox5aO3PF4puYdSMsYnKKRxWOhMY=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+1KitA4/IyUaZQ8ROr4Avo4/Dp4=
+		+MXu1SCqp4FNT8YCvNXv5vkMjUU=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TGEBB/TeZN2f5HOK5375ltMqTP0=
+		4dyTkLLasVtSvklUxbhQa90eBpo=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+1KitA4/IyUaZQ8ROr4Avo4/Dp4=
+		+MXu1SCqp4FNT8YCvNXv5vkMjUU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		AW4mbDMjHQSHlrhZvs3cDvhferc=
+		s6t2NeG6U0aJgp84TMgF78lIFU0=
 		</data>
 		<key>PushRewardsVC.nib</key>
 		<data>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eK4EFWDkpxTn9isu9FKqAhAZG/yxqKCH1hU23c55s/k=
+			tuB+EHfSBnb4ZKP1jpAX1zouimhYOlJSJeyQniqAhp4=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -151,56 +151,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGQ583bYZlmKlE8a5hlR9ZUyKsLXek45aqS8dbrsKzg=
+			vRvnqhvP6TwukcVNHAAABXU8sGFjL/myo6ML2630cYc=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KMsm7I4wXSkGb7IcgAYcB6BMwZ1xJ0C8zCAjkbbztlg=
+			oKzm9VflDEHPNrGuhSHeBvU0lu0DEw9x7vYo1dlCDLo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ROHMQTW5GBXjEMhzT4oE/GC09dxSU/UysReF6jdubMI=
+			iOJHCJZ5jJeQ5BAEhc2uUMRmcrZHIezYw269zGvoJ6k=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KMsm7I4wXSkGb7IcgAYcB6BMwZ1xJ0C8zCAjkbbztlg=
+			oKzm9VflDEHPNrGuhSHeBvU0lu0DEw9x7vYo1dlCDLo=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGQ583bYZlmKlE8a5hlR9ZUyKsLXek45aqS8dbrsKzg=
+			vRvnqhvP6TwukcVNHAAABXU8sGFjL/myo6ML2630cYc=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQb7qcyxMPZ09/4IKyH4bsRYIRy0+wfojk01ES0Snkg=
+			GuJuEEQvZwCFQFACFvoEV6clMKc9EFQ+Hy8TKd6d4Ls=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mtAaq/sq5oBWNxW8ISzfrirbaLIkK/uQBOlPvEXE+QI=
+			tM6PFeDY78d1b2DxiwygH3bwpXH3Wa8qwLVqeH4Dxto=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQb7qcyxMPZ09/4IKyH4bsRYIRy0+wfojk01ES0Snkg=
+			GuJuEEQvZwCFQFACFvoEV6clMKc9EFQ+Hy8TKd6d4Ls=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -214,7 +214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4IwXUmj9/kyTJjV7QZZr0px2bpJuVvNwg3V3KrUP7cM=
+			pKlTivYu4brizi4G2TAKS1AFcZwbX5WQN8lVnBoMec8=
 			</data>
 		</dict>
 		<key>PushRewardsVC.nib</key>

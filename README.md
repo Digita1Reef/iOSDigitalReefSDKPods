@@ -13,7 +13,7 @@ Steps to install
   2. open Podfile 
   3. add the following code in the Podfile and save it.
 
-      platform :ios, '12.0'
+      platform :ios, '15.0'
       
       target 'TestDRPods' do
       
@@ -33,4 +33,4 @@ Note:
 
    for ex: 
    
-   pod 'iOSDigitalReefSDKPods', :git => 'https://github.com/Digita1Reef/iOSDigitalReefSDKPods', :tag => '4.6.0'​
+   pod 'iOSDigitalReefSDKPods', :git => 'https://github.com/Digita1Reef/iOSDigitalReefSDKPods', :tag => '4.29.3'

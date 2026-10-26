@@ -8,17 +8,13 @@
 		<data>
 		PkqbWlNW0ry/k6rzWvhGLgNHEmU=
 		</data>
-		<key>AdsBaseViewController.nib/objects-14.0+.nib</key>
+		<key>AdsBaseViewController.nib</key>
 		<data>
-		IiJgWG8FDT7H/q6l5WwEzUG6POs=
-		</data>
-		<key>AdsBaseViewController.nib/runtime.nib</key>
-		<data>
-		nNkRYXyMULckArVMQEDV5yu2qFs=
+		3iQjhOjeKidSDbS90VuWFo4cX/Q=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		/Si4jvPxIr49MwGtIjVpp/056wM=
+		Zlhv5js5xX0XAD263RIvzdD6WbU=
 		</data>
 		<key>Config.plist</key>
 		<data>
@@ -26,11 +22,11 @@
 		</data>
 		<key>FullScreenVideoViewController.nib</key>
 		<data>
-		ZketPkq8TvUMCf/IltVx0nGJ+ds=
+		P3S+rgl4KGNxY+lI3I11mfRPb5A=
 		</data>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<data>
-		v0vROkAtrTQugtGeWX2niOUYjmU=
+		wceD7GMAd+u8SjjKyfdRwDJmCi4=
 		</data>
 		<key>Headers/DigitalReefSDK.h</key>
 		<data>
@@ -38,47 +34,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NJjFqL0vY0B5qsnk/Z36jcof0Ww=
+		qOnWf9qweBrXUpzV4YQoPz6tn70=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xXAQXQVqcX8GbFb32PiV2R1Skjg=
+		KOd/3iIkvLlrpPmST0Xp03QlWLo=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6s+QBwJP/WW5i2rVwVOWBdVMqxc=
+		3OthRfwrD/JBqU5IsoEVkI1TcT8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		a0SRRquHFu/5BiQRqviF3s5FMQg=
+		TlBMSlDr5P/y5wnSJrB/KLujbzw=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6s+QBwJP/WW5i2rVwVOWBdVMqxc=
+		3OthRfwrD/JBqU5IsoEVkI1TcT8=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xXAQXQVqcX8GbFb32PiV2R1Skjg=
+		KOd/3iIkvLlrpPmST0Xp03QlWLo=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Yz/ViPadO+fDuG2H0TCvN9C4mBM=
+		ha54WTVDjM6JqM8yOdu3ogtphMc=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4dyTkLLasVtSvklUxbhQa90eBpo=
+		k1LxAOf89xHTRihl93CR110PVLs=
 		</data>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Yz/ViPadO+fDuG2H0TCvN9C4mBM=
+		ha54WTVDjM6JqM8yOdu3ogtphMc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		9DlfZuo/nM8M/LY0N1FGyyDaUvQ=
+		5xo8ZZTZU/BkdGuiZNBrKxxjtlw=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		s6t2NeG6U0aJgp84TMgF78lIFU0=
+		0aWaSBxBGq+tQIMTNrnsFY2lXCE=
 		</data>
 		<key>PushRewardsVC.nib</key>
 		<data>
@@ -86,7 +82,7 @@
 		</data>
 		<key>UIVideoView.nib</key>
 		<data>
-		3OniYF+L4VpqRjRtUiHg9gYpwL8=
+		XtS7saFZMvxy+5A99iGJK6lZkEY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -98,25 +94,18 @@
 			HxyfM1hwniJDwFygxpxtVxodn61SShY0Yayegdhi68w=
 			</data>
 		</dict>
-		<key>AdsBaseViewController.nib/objects-14.0+.nib</key>
+		<key>AdsBaseViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VfyAIF0jp2+d4eGNZMRd8R9YYGkjILZ+P9W2+7rohRA=
-			</data>
-		</dict>
-		<key>AdsBaseViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			40xAYEVhBbL7k29gcfW6tvuSWFBV0CJ8HL0bz/GryQg=
+			3HgBHH3ZgShEzLg3l+maRdZUJjtEtlqH8S9bEmVLeOk=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+AT8yeayeTc0RqRzSKLtaJs9eotp/8xGFWjAry6b74=
+			9dzjpf+WsmTjI7EZUaEG3ZOm8HvC4AeOxiPMUC6M3MQ=
 			</data>
 		</dict>
 		<key>Config.plist</key>
@@ -130,14 +119,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0dt73xM2ms6dMMW0yGpKdk4DbsOt5tfWFv4lKmY9ets=
+			vnTwhKC7R41q2GiqsnAK9utlhiI67ONPzIQYSwvLqrA=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rba73wa+2DI0FomF0ze1bxIahfSQ5ToDqWga+asdxCg=
+			Sdnq/Qi4WvjGTFobzIMAIJ5+/rwxgqNZhJg5zHuQLDQ=
 			</data>
 		</dict>
 		<key>Headers/DigitalReefSDK.h</key>
@@ -151,70 +140,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jJ2dKCT/0+RGwpKPpXcGJZC48WaJyfFIY4lfn6sFkS4=
+			iv914jM5LbxRLhV44Kszz2GplQuvz4BeGMn8K1edov0=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aW82y3lOND+Hw1AOhxtET/kxOtuv6i5OZZ9WiE5Q03A=
+			7p4xKiVxM8D+PZvihgdBRpjeQUGysB/vO2jRbyKR2F4=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iOJHCJZ5jJeQ5BAEhc2uUMRmcrZHIezYw269zGvoJ6k=
+			DvumcIlL+I6uiE8Ajn574uGIkG+AuWEsal3pv1JZlGk=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aW82y3lOND+Hw1AOhxtET/kxOtuv6i5OZZ9WiE5Q03A=
+			7p4xKiVxM8D+PZvihgdBRpjeQUGysB/vO2jRbyKR2F4=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jJ2dKCT/0+RGwpKPpXcGJZC48WaJyfFIY4lfn6sFkS4=
+			iv914jM5LbxRLhV44Kszz2GplQuvz4BeGMn8K1edov0=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Au7DHIQxoyafly7dXHmXfZngHpxmrbPQAk2tUEFA4zk=
+			5RyEG1JC2sLyfCE4OQlN5QLvJOWN11IqJ1TV3l56qiE=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tM6PFeDY78d1b2DxiwygH3bwpXH3Wa8qwLVqeH4Dxto=
+			0lcJfw0eFXrdbkal7ahCNhOyv3tfDhFe3J3CeiGJYVc=
 			</data>
 		</dict>
 		<key>Modules/DigitalReefSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Au7DHIQxoyafly7dXHmXfZngHpxmrbPQAk2tUEFA4zk=
+			5RyEG1JC2sLyfCE4OQlN5QLvJOWN11IqJ1TV3l56qiE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YI9A/SFIqlCnSCfq6cyP+Q6eV7F9rKzlUT8fAyrFW+g=
+			GY6bU57x6GPeA+Hhp3nfayypg4LBJcpaDj7NUVwCJdQ=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pKlTivYu4brizi4G2TAKS1AFcZwbX5WQN8lVnBoMec8=
+			LRGR0wJiOjAgg57j2+G+1ZeC3qaQzTcky5gdx9+10jk=
 			</data>
 		</dict>
 		<key>PushRewardsVC.nib</key>
@@ -228,7 +217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q27WLaVVdQBbfjC0rQh1ZONDw3ZSgI767diGM0/5YZ8=
+			yj1VzW64739cq+8fW1FRI9zRrFA9rpzCclyfZjqCyVI=
 			</data>
 		</dict>
 	</dict>

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name               = "iOSDigitalReefSDKPods"
-  spec.version            = "4.29.1"
+  spec.version            = "4.29.3"
   spec.summary            = "CocoaPods library for DigitalReef's SDK."
   spec.description        = "The DR SDK enables partners to integrate the services provided by the company"
   spec.homepage           = "https://digitalreef.com/"
@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "SHAM SUNDAR" => "sham.sundar@digitalreef.com" }
   spec.source             = { :git => 'https://github.com/Digita1Reef/iOSDigitalReefSDKPods', :tag => spec.version }
   spec.swift_version      = "5.0"
-  spec.platform           = :ios, "13.0"
+  spec.platform           = :ios, "15.0"
   spec.ios.vendored_frameworks = "DRSDK/DigitalReefSDK.xcframework"
 end
